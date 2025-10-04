@@ -2,7 +2,7 @@
 url: "https://c418.bandcamp.com/album/one"
 
 lrc:
-  expect: ~
+  expect: false
 
 # common metadata
 album: "one"

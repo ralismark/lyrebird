@@ -1,0 +1,59 @@
+# fetching info
+url: "https://jacobcolliermusic.bandcamp.com/album/djesse-vol-2"
+
+lrc:
+  expect: ~
+  artist: "Jacob Collier"
+
+# common metadata
+album: "Djesse Vol. 2"
+album_artist: "Jacob Collier"
+date: 2020-08-14
+cover: "https://f4.bcbits.com/img/a4127170308_10.jpg"
+
+# per-track info
+tracks:
+- title: "Intro"
+  artists:
+    - Jacob Collier
+    - Kathryn Tickell
+- title: "Sky Above"
+- title: "Bakumbe"
+  artists:
+    - Jacob Collier
+    - Sam Amidon
+- title: "Make Me Cry"
+- title: "Moon River"
+- title: "Feel"
+  artists:
+    - Jacob Collier
+    - Lianne La Havas
+- title: "À Noite (interlude)"
+- title: "Lua"
+  artists:
+    - Jacob Collier
+    - MARO
+- title: "I Heard You Singing"
+  artists:
+    - Jacob Collier
+    - Becca Stevens
+    - Chris Thile
+- title: "It Don't Matter"
+  artists:
+    - Jacob Collier
+    - JoJo
+- title: "Here Comes the Sun"
+  artists:
+    - Jacob Collier
+    - Dodie
+- title: "Dun Dun Ba Ba (interlude)"
+- title: "Nebaluyo"
+  artists:
+    - Jacob Collier
+    - Oumou Sangaré
+- title: "Do You Feel Love"
+  artists:
+    - Jacob Collier
+    - Steve Vai
+- title: "Outro"
+- title: "Time to Rest Your Weary Head"

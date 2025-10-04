@@ -1,0 +1,31 @@
+# fetching info
+url: "https://patriciataxxon.bandcamp.com/album/rainbow-road"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "Rainbow Road"
+album_artist: "Patricia Taxxon"
+date: 2020-03-28
+cover: "https://f4.bcbits.com/img/a3904737706_10.jpg"
+
+tracks:
+- title: Liftoff
+  expect_duration: 0:02:33
+- title: Rainbow Road
+  expect_duration: 0:04:48
+- title: Soaring
+  expect_duration: 0:04:11
+- title: Retrograde
+  expect_duration: 0:05:02
+- title: Diversion
+  expect_duration: 0:04:59
+- title: Somewhere
+  expect_duration: 0:06:33
+- title: Take Care
+  expect_duration: 0:08:11
+- title: Glitter
+  expect_duration: 0:05:27
+- title: Passage
+  expect_duration: 0:04:44

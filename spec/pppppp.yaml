@@ -1,0 +1,40 @@
+# fetching info
+url: "https://souleyedigitalmusic.bandcamp.com/album/pppppp-the-vvvvvv-soundtrack"
+# TODO this is only a preview; see https://www.souleye.se/pppppp
+
+lrc:
+  expect: false
+
+# common metadata
+album: "PPPPPP"
+album_artist: "Magnus Pålsson"
+date: 2010-01-10
+cover: "https://f4.bcbits.com/img/a1101093077_10.jpg"
+
+tracks:
+- title: Powerup
+  expect_duration: 0:00:04
+- title: Presenting VVVVVV
+  expect_duration: 0:02:40
+- title: Pause
+  expect_duration: 0:00:09
+- title: Pushing Onwards
+  expect_duration: 0:03:39
+- title: Path Complete
+  expect_duration: 0:00:09
+- title: Passion for Exploring
+  expect_duration: 0:02:52
+- title: Positive Force
+  expect_duration: 0:02:48
+- title: Predestined Fate
+  expect_duration: 0:02:10
+- title: Potential for Anything
+  expect_duration: 0:03:42
+- title: Pressure Cooker
+  expect_duration: 0:03:27
+- title: Plenary
+  expect_duration: 0:00:22
+- title: Pipe Dream
+  expect_duration: 0:02:21
+- title: Popular Potpourri
+  expect_duration: 0:06:08

@@ -1,0 +1,62 @@
+url: https://music.youtube.com/playlist?list=OLAK5uy_lrC0MkB550BYcZHgcMf8-kCCxmmpGQrXk
+
+lrc:
+  expect: false
+
+# common metadata
+album: "Reeds and Seeds"
+album_artist: "Ruscel Torres"
+date: 2017-09-07
+cover: "https://odesli-public-read.s3.us-west-1.amazonaws.com/b6ca255c-6fb2-49e1-a8a9-20c8b0dce6c3.png"
+
+tracks:
+- title: Intro Theme
+  artists:
+    - Ruscel Torres
+    - Nico Mendoza
+    - Linus Kühl
+- title: Choose Your Seeds
+  artists:
+    - Ruscel Torres
+    - Joe Di Fiore
+    - Jake Parcell
+- title: Grasswalk and Moongrains
+  artists:
+    - Ruscel Torres
+    - Nico Mendoza
+    - Linus Kühl
+- title: Loonboon
+  artists:
+    - Ruscel Torres
+    - Madalyn Music
+    - Linus Kühl
+    - Nico Mendoza
+- title: Zen Garden
+- title: Watery Graves
+  artists:
+    - Ruscel Torres
+    - Madalyn Music
+    - Nico Mendoza
+    - Linus Kühl
+- title: Rigor Mormist
+- title: Graze The Roof
+  artists:
+    - Ruscel Torres
+    - Madalyn Music
+    - LBlevinsMusic
+    - Nico Mendoza
+    - Joe Di Fiore
+- title: Battle For Brains
+  artists:
+    - Ruscel Torres
+    - Linus Kühl
+- title: Zombies on Your Lawn
+  artists:
+    - Ruscel Torres
+    - Nico Mendoza
+    - Nathan Banegas
+    - Linus Kühl
+    - Madalyn Music
+  lrc:
+    expect: ~
+- title: Thank You, Plants Vs. Zombies!
