@@ -1,0 +1,123 @@
+# fetching info
+url: "https://jacobcolliermusic.bandcamp.com/album/djesse-vol-4"
+expect_files:
+  - "01 - Jacob Collier - 100,000 Voices.mp3"
+  - "02 - Jacob Collier - She Put Sunshine.mp3"
+  - "03 - Jacob Collier - Little Blue (featuring Brandi Carlile).mp3"
+  - "04 - Jacob Collier - WELLLL.mp3"
+  - "05 - Jacob Collier - Cinnamon Crush (featuring Lindsey Lomis).mp3"
+  - "06 - Jacob Collier - Wherever I Go (featuring Lawrence and Michael McDonald).mp3"
+  - "07 - Jacob Collier - Summer Rain (featuring Madison Cunningham and Chris Thile).mp3"
+  - "08 - Jacob Collier - A Rock Somewhere (featuring Anoushka Shankar and Varijashree Venugopal).mp3"
+  - "09 - Jacob Collier - Mi Corazón (featuring Camilo).mp3"
+  - "10 - Jacob Collier - Witness Me (featuring Shawn Mendes, Stormzy and Kirk Franklin).mp3"
+  - "11 - Jacob Collier - Never Gonna Be Alone (featuring Lizzy McAlpine and John Mayer).mp3"
+  - "12 - Jacob Collier - Bridge Over Troubled Water (featuring John Legend and Tori Kelly).mp3"
+  - "13 - Jacob Collier - Over You (featuring Aespa and Chris Martin).mp3"
+  - "14 - Jacob Collier, Kirk Franklin, Chika, D Smoke, Sho Madjozi, Yelle, Kanyi Mavi - Jacob Collier, Kirk Franklin, Chika, D Smoke, Sho Madjozi, Yelle, Kanyi Mavi - Box Of Stars Pt. 1 (featuring Kirk Franklin and Chika).mp3"
+  - "15 - Jacob Collier - Box Of Stars Pt. 2 (featuring Metropole Orkest, Suzie Collier, Steve Vai and VOCES8).mp3"
+  - "16 - Jacob Collier - World O World.mp3"
+
+lrc:
+  expect: true
+
+# common metadata
+album: "Djesse Vol. 4"
+album_artist: "Jacob Collier"
+date: 2024-02-29
+cover: "https://upload.wikimedia.org/wikipedia/en/5/51/Djesse_Vol_4_album_cover.jpg"
+
+# per-track info
+tracks:
+- title: "100,000 Voices"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "4:44"
+- title: "She Put Sunshine"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "3:30"
+- title: "Little Blue"
+  artists:
+    - "Jacob Collier"
+    - "Brandi Carlile"
+  expect_duration: "4:25"
+- title: "WELLLL"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "2:38"
+- title: "Cinnamon Crush"
+  artists:
+    - "Jacob Collier"
+    - "Lindsey Lomis"
+  expect_duration: "3:47"
+- title: "Wherever I Go"
+  artists:
+    - "Jacob Collier"
+    - "Lawrence"
+    - "Michael McDonald"
+  expect_duration: "2:46"
+- title: "Summer Rain"
+  artists:
+    - "Jacob Collier"
+    - "Madison Cunningham"
+    - "Chris Thile"
+  expect_duration: "4:51"
+- title: "A Rock Somewhere"
+  artists:
+    - "Jacob Collier"
+    - "Anoushka Shankar"
+    - "Varijashree Venugopal"
+  expect_duration: "5:09"
+- title: "Mi Corazón"
+  artists:
+    - "Jacob Collier"
+    - "Camilo"
+  expect_duration: "3:06"
+- title: "Witness Me"
+  artists:
+    - "Jacob Collier"
+    - "Shawn Mendes"
+    - "Stormzy"
+    - "Kirk Franklin"
+  expect_duration: "3:45"
+- title: "Never Gonna Be Alone"
+  artists:
+    - "Jacob Collier"
+    - "Lizzy McAlpine"
+    - "John Mayer"
+  expect_duration: "4:09"
+- title: "Bridge over Troubled Water"
+  artists:
+    - "Jacob Collier"
+    - "John Legend"
+    - "Tori Kelly"
+  expect_duration: "5:52"
+- title: "Over You"
+  artists:
+    - "Jacob Collier"
+    - "Aespa"
+    - "Chris Martin"
+  expect_duration: "2:53"
+- title: "Box of Stars Pt. 1"
+  artists:
+    - "Jacob Collier"
+    - "Kirk Franklin"
+    - "Chika"
+    - "D Smoke"
+    - "Sho Madjozi"
+    - "Yelle"
+    - "Kanyi Mavi"
+  expect_duration: "5:16"
+- title: "Box of Stars Pt. 2"
+  artists:
+    - "Jacob Collier"
+    - "Metropole Orkest"
+    - "Suzie Collier"
+    - "Steve Vai"
+    - "VOCES8"
+  expect_duration: "6:12"
+- title: "World O World"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "6:14"

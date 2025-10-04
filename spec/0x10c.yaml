@@ -1,0 +1,18 @@
+# fetching info
+url: "https://c418.bandcamp.com/album/0x10c"
+expect_files:
+  - "01 - C418 - 0x10c.mp3"
+  - "02 - C418 - 0.mp3"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "0x10c"
+album_artist: "C418"
+date: 2015-09-15
+cover: "https://f4.bcbits.com/img/a3268981442_10.jpg"
+
+tracks:
+- title: "0x10c"
+- title: "0"

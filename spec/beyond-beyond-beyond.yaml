@@ -1,0 +1,47 @@
+# fetching info
+url: "https://thecranewives.bandcamp.com/album/beyond-beyond-beyond"
+expect_files:
+  - "01 - The Crane Wives - Scars.mp3"
+  - "02 - The Crane Wives - Bitter Medicine.mp3"
+  - "03 - The Crane Wives - Higher Ground.mp3"
+  - "04 - The Crane Wives - Predator.mp3"
+  - "05 - The Crane Wives - Say It.mp3"
+  - "06 - The Crane Wives - Mad Dog.mp3"
+  - "07 - The Crane Wives - Arcturus Beaming.mp3"
+  - "08 - The Crane Wives - Time Will Change You.mp3"
+  - "09 - The Crane Wives - Black Hole Fantasy.mp3"
+  - "10 - The Crane Wives - Red Clay.mp3"
+  - "11 - The Crane Wives - River Rushing.mp3"
+
+lrc:
+  expect: true
+
+# common metadata
+album: "Beyond Beyond Beyond"
+album_artist: "The Crane Wives"
+date: 2024-09-06
+cover: "https://f4.bcbits.com/img/a3926664759_10.jpg"
+
+tracks:
+- title: "Scars"
+  expect_duration: "04:19"
+- title: "Bitter Medicine"
+  expect_duration: "04:06"
+- title: "Higher Ground"
+  expect_duration: "04:11"
+- title: "Predator"
+  expect_duration: "03:18"
+- title: "Say It"
+  expect_duration: "04:48"
+- title: "Mad Dog"
+  expect_duration: "03:40"
+- title: "Arcturus Beaming"
+  expect_duration: "04:29"
+- title: "Time Will Change You"
+  expect_duration: "04:52"
+- title: "Black Hole Fantasy"
+  expect_duration: "06:34"
+- title: "Red Clay"
+  expect_duration: "03:52"
+- title: "River Rushing"
+  expect_duration: "03:54"

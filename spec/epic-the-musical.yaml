@@ -1,0 +1,344 @@
+# fetching info
+url: "https://www.youtube.com/playlist?list=PLLQ_Q1v4u0qAxLJhtJb8ursVFd7ptDSaJ"
+expect_files:
+  - "01 - The Horse and the Infant.mp3"
+  - "02 - Just a Man.mp3"
+  - "03 - Full Speed Ahead.mp3"
+  - "04 - Open Arms.mp3"
+  - "05 - Warrior of the Mind.mp3"
+  - "06 - Polyphemus.mp3"
+  - "07 - Survive.mp3"
+  - "08 - Remember Them.mp3"
+  - "09 - My Goodbye.mp3"
+  - "10 - Storm.mp3"
+  - "11 - Luck Runs Out.mp3"
+  - "12 - Keep Your Friends Close.mp3"
+  - "13 - Ruthlessness.mp3"
+  - "14 - Puppeteer.mp3"
+  - "15 - Wouldn't You Like.mp3"
+  - "16 - Done For.mp3"
+  - "17 - There Are Other Ways.mp3"
+  - "18 - The Underworld.mp3"
+  - "19 - No Longer You.mp3"
+  - "20 - Monster.mp3"
+  - "21 - Suffering.mp3"
+  - "22 - Different Beast.mp3"
+  - "23 - Scylla.mp3"
+  - "24 - Mutiny.mp3"
+  - "25 - Thunder Bringer.mp3"
+  - "26 - Legendary.mp3"
+  - "27 - Little Wolf.mp3"
+  - "28 - We'll Be Fine.mp3"
+  - "29 - Love in Paradise.mp3"
+  - "30 - God Games.mp3"
+  - "31 - Not Sorry for Loving You.mp3"
+  - "32 - Dangerous.mp3"
+  - "33 - Charybdis.mp3"
+  - "34 - Get in the Water.mp3"
+  - "35 - Six Hundred Strike.mp3"
+  - "36 - The Challenge.mp3"
+  - "37 - Hold Them Down.mp3"
+  - "38 - Odysseus.mp3"
+  - "39 - I Can't Help but Wonder.mp3"
+  - "40 - Would You Fall in Love with Me Again.mp3"
+
+lrc:
+  expect: true
+  album: "EPIC"
+
+# common metadata
+album: "EPIC: The Musical"
+album_artist: "Jorge Rivera-Herrans"
+date: 2024-12-25
+cover: "https://i1.sndcdn.com/artworks-icgSfo0zwGfSxpWC-fKmqzg-t500x500.jpg"
+
+tracks:
+
+# Troy Saga
+
+- title: "The Horse and the Infant"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Luke Holt"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b2/Troy_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Just a Man"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b2/Troy_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Full Speed Ahead"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Steven Dookie"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b2/Troy_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Open Arms"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Dookie"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b2/Troy_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Warrior of the Mind"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Teagan Earley"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b2/Troy_Saga2.png/revision/latest/scale-to-width-down/300"
+
+ # Cyclops Saga
+
+- title: "Polyphemus"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Steven Dookie"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/5/5c/Cyclops_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Survive"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Dookie"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/5/5c/Cyclops_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "Remember Them"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Teagan Earley"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/5/5c/Cyclops_Saga2.png/revision/latest/scale-to-width-down/300"
+- title: "My Goodbye"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Teagan Earley"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/5/5c/Cyclops_Saga2.png/revision/latest/scale-to-width-down/300"
+
+   # Ocean Saga
+
+- title: "Storm"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/a/a5/The_Ocean_saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Luck Runs Out"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/a/a5/The_Ocean_saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Keep Your Friends Close"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Kira Stone"
+   - "Anna Lea"
+   - "Miguel Veloso"
+   - "Armando Julián"
+   - "Steven Rodriguez"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/a/a5/The_Ocean_saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Ruthlessness"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Rodriguez"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/a/a5/The_Ocean_saga.jpg/revision/latest/scale-to-width-down/300"
+
+   # Circe Saga
+
+- title: "Puppeteer"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Talya Sindel"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b3/The_Circe_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Wouldn't You Like"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "TROY"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b3/The_Circe_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Done For"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Talya Sindel"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b3/The_Circe_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "There Are Other Ways"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Talya Sindel"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/b/b3/The_Circe_Saga.jpg/revision/latest/scale-to-width-down/300"
+
+   # Underworld Saga
+
+- title: "The Underworld"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Dookie"
+   - "Wanda Herrans"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/30/Underworld_Saga.jpeg.jpg/revision/latest/scale-to-width-down/300"
+- title: "No Longer You"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Mason Olshavsky"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/30/Underworld_Saga.jpeg.jpg/revision/latest/scale-to-width-down/300"
+- title: "Monster"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/30/Underworld_Saga.jpeg.jpg/revision/latest/scale-to-width-down/300"
+
+   # Thunder Saga
+
+- title: "Suffering"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Anna Lea"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/31/Thunder_Saga.png/revision/latest/scale-to-width-down/300"
+- title: "Different Beast"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Anna Lea"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/31/Thunder_Saga.png/revision/latest/scale-to-width-down/300"
+- title: "Scylla"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "KJ Burkhauser"
+   - "Armando Julián"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/31/Thunder_Saga.png/revision/latest/scale-to-width-down/300"
+- title: "Mutiny"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Armando Julián"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/31/Thunder_Saga.png/revision/latest/scale-to-width-down/300"
+- title: "Thunder Bringer"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Luke Holt"
+   - "Anna Lea"
+   - "Armando Julián"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/3/31/Thunder_Saga.png/revision/latest/scale-to-width-down/300"
+
+   # Wisdom Saga
+
+- title: "Legendary"
+  artists:
+   - "Miguel Veloso"
+   - "Ayron Alexander"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/9/99/Wisdom_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Little Wolf"
+  artists:
+   - "Ayron Alexander"
+   - "Teagan Earley"
+   - "Miguel Veloso"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/9/99/Wisdom_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "We'll Be Fine"
+  artists:
+   - "Teagan Earley"
+   - "Miguel Veloso"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/9/99/Wisdom_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Love in Paradise"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Barbara Wangui"
+   - "Teagan Earley"
+   - "Kira Stone"
+   - "Steven Rodriguez"
+   - "Talya Sindel"
+   - "Mason Olshavsky"
+   - "KJ Burkhauser"
+   - "Armando Julián"
+   - "Steven Dookie"
+   - "Wanda Herrans"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/9/99/Wisdom_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "God Games"
+  artists:
+   - "Teagan Earley"
+   - "Luke Holt"
+   - "Brandon MicInnis"
+   - "Mike Rivera"
+   - "Janani K. Jha"
+   - "Earle Gresham Jr."
+   - "POESY"
+   - "Cast of EPIC: The Musical"
+  lrc:
+    id: 11936660
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/9/99/Wisdom_Saga.jpg/revision/latest/scale-to-width-down/300"
+
+   # Vengeance Saga
+
+- title: "Not Sorry for Loving You"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Barbara Wangui"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/c/cb/Vengeance_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Dangerous"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "TROY"
+   - "Diana Rivera-Herrans"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/c/cb/Vengeance_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Charybdis"
+  artists:
+   - "Jorge Rivera-Herrans"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/c/cb/Vengeance_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Get in the Water"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Rodriguez"
+   - "Steven Dookie"
+   - "Armando Julián"
+   - "Wanda Herrans"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/c/cb/Vengeance_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Six Hundred Strike"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Steven Rodriguez"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/c/cb/Vengeance_Saga.jpg/revision/latest/scale-to-width-down/300"
+
+   # Ithaca Saga
+
+- title: "The Challenge"
+  artists:
+   - "Anna Lea"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/0/06/Ithaca_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Hold Them Down"
+  artists:
+   - "Ayron Alexander"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/0/06/Ithaca_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Odysseus"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Jamie Wiltshire"
+   - "Dennis Diaz"
+   - "Tristan Caldwell"
+   - "Miguel Veloso"
+   - "Cast of EPIC: The Musical"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/0/06/Ithaca_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "I Can't Help but Wonder"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Miguel Veloso"
+   - "Teagan Earley"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/0/06/Ithaca_Saga.jpg/revision/latest/scale-to-width-down/300"
+- title: "Would You Fall in Love with Me Again"
+  artists:
+   - "Jorge Rivera-Herrans"
+   - "Anna Lea"
+  cover: "https://static.wikia.nocookie.net/epicthemusical/images/0/06/Ithaca_Saga.jpg/revision/latest/scale-to-width-down/300"

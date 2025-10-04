@@ -1,0 +1,87 @@
+# fetching info
+url: "https://jacobcolliermusic.bandcamp.com/album/djesse-vol-3"
+expect_files:
+  - "01 - Jacob Collier - CLARITY.mp3"
+  - "02 - Jacob Collier - Count The People (featuring Jessie Reyez and T-Pain).mp3"
+  - "03 - Jacob Collier - In My Bones (featuring Kimbra and Tank and the Bangas).mp3"
+  - "04 - Jacob Collier - Time Alone With You (featuring Daniel Caesar).mp3"
+  - "05 - Jacob Collier, Mahalia, Ty Dolla $ign - Jacob Collier, Mahalia, Ty Dolla $ign - All I Need.mp3"
+  - "06 - Jacob Collier - In Too Deep (featuring Kiana Ledé).mp3"
+  - "07 - Jacob Collier - Butterflies.mp3"
+  - "08 - Jacob Collier - Sleeping on My Dreams.mp3"
+  - "09 - Jacob Collier - Running Outta Love (featuring Tori Kelly).mp3"
+  - "10 - Jacob Collier - Light It Up On Me.mp3"
+  - "11 - Jacob Collier - He Won't Hold You (featuring Rapsody).mp3"
+  - "12 - Jacob Collier - To Sleep.mp3"
+
+lrc:
+  expect: true
+
+# common metadata
+album: "Djesse Vol. 3"
+album_artist: "Jacob Collier"
+date: 2020-08-14
+cover: "https://upload.wikimedia.org/wikipedia/en/0/03/Djesse_Vol._3.jpg"
+
+# per-track info
+tracks:
+- title: "CLARITY"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "0:51"
+- title: "Count the People"
+  artists:
+    - "Jacob Collier"
+    - "Jessie Reyez"
+    - "T-Pain"
+  expect_duration: "2:47"
+- title: "In My Bones"
+  artists:
+    - "Jacob Collier"
+    - "Kimbra"
+    - "Tank"
+    - "the Bangas"
+  expect_duration: "4:09"
+- title: "Time Alone with You"
+  artists:
+    - "Jacob Collier"
+    - "Daniel Caesar"
+  expect_duration: "4:16"
+- title: "All I Need"
+  artists:
+    - "Jacob Collier"
+    - "Mahalia"
+    - "Ty Dolla $ign"
+  expect_duration: "4:05"
+- title: "In Too Deep"
+  artists:
+    - "Jacob Collier"
+    - "Kiana Ledé"
+  expect_duration: "3:52"
+- title: "Butterflies"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "2:02"
+- title: "Sleeping on My Dreams"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "4:16"
+- title: "Running Outta Love"
+  artists:
+    - "Jacob Collier"
+    - "Tori Kelly"
+  expect_duration: "4:25"
+- title: "Light It Up on Me"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "2:05"
+  # lrclib: ~
+- title: "He Won't Hold You"
+  artists:
+    - "Jacob Collier"
+    - "Rapsody"
+  expect_duration: "5:00"
+- title: "To Sleep"
+  artists:
+    - "Jacob Collier"
+  expect_duration: "3:12"

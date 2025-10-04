@@ -1,0 +1,58 @@
+# fetching info
+url: "https://thecranewives.bandcamp.com/album/foxlore"
+expect_files:
+  - "01 - The Crane Wives - Nothing At All.mp3"
+  - "02 - The Crane Wives - I Talk in My Sleep.mp3"
+  - "03 - The Crane Wives - Down the River.mp3"
+  - "04 - The Crane Wives - Ribs.mp3"
+  - "05 - The Crane Wives - Can't Go Back.mp3"
+  - "06 - The Crane Wives - Curses.mp3"
+  - "07 - The Crane Wives - Turn Out the Lights.mp3"
+  - "08 - The Crane Wives - Pretty Little Things.mp3"
+  - "09 - The Crane Wives - Know How.mp3"
+  - "10 - The Crane Wives - Not the Ghost.mp3"
+  - "11 - The Crane Wives - The Garden.mp3"
+
+lrc:
+  expect: true
+
+  # lrclib's ones are especially off-sync for some reason
+  offset: 0
+
+
+# common metadata
+album: "Foxlore"
+album_artist: "The Crane Wives"
+date: 2016-04-02
+cover: "https://f4.bcbits.com/img/a4236425860_10.jpg"
+
+tracks:
+- title: "Nothing At All"
+- title: "I Talk in My Sleep"
+  lrc:
+    offset: -0.600
+- title: "Down the River"
+- title: "Ribs"
+  lrc:
+    offset: -1.600
+- title: "Can't Go Back"
+  lrc:
+    offset: -1.300
+- title: "Curses"
+  lrc:
+    offset: -0.600
+- title: "Turn Out the Lights"
+  lrc:
+    offset: -1.300
+- title: "Pretty Little Things"
+  lrc:
+    offset: -1.400
+- title: "Know How"
+  lrc:
+    offset: -1.550
+- title: "Not the Ghost"
+  lrc:
+    offset: -1.050
+- title: "The Garden"
+  lrc:
+    offset: -0.900

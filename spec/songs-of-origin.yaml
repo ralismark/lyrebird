@@ -1,0 +1,20 @@
+# fetching info
+url: "https://yaelokre.bandcamp.com/album/songs-of-origin"
+expect_files:
+  - "01 - Yaelokre - My farewells to the fields.mp3"
+  - "02 - Yaelokre - Bird cage blue and yellow.mp3"
+
+lrc:
+  expect: true
+
+# common metadata
+album: "Songs of Origin"
+album_artist: "Yaelokre"
+date: 2024-09-26
+cover: "https://f4.bcbits.com/img/a1300356600_10.jpg"
+
+tracks:
+- title: My farewells to the fields
+  expect_duration: 0:02:04
+- title: Bird cage blue and yellow
+  expect_duration: 0:03:14

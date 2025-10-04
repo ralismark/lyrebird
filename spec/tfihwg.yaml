@@ -1,0 +1,50 @@
+# fetching info
+url: "https://thecranewives.bandcamp.com/album/the-fool-in-her-wedding-gown"
+expect_files:
+  - "01 - The Crane Wives - Icarus.mp3"
+  - "02 - The Crane Wives - Steady, Steady.mp3"
+  - "03 - The Crane Wives - Easier.mp3"
+  - "04 - The Crane Wives - Shallow River.mp3"
+  - "05 - The Crane Wives - Strangler Fig.mp3"
+  - "06 - The Crane Wives - The Glacier House.mp3"
+  - "07 - The Crane Wives - Tongues & Teeth.mp3"
+  - "08 - The Crane Wives - Back to the Ground.mp3"
+  - "09 - The Crane Wives - Show Your Fangs.mp3"
+  - "10 - The Crane Wives - Once & For All.mp3"
+  - "11 - The Crane Wives - Canary in a Coal Mine.mp3"
+  - "12 - The Crane Wives - How to Rest.mp3"
+
+lrc:
+  expect: true
+
+# common metadata
+album: "The Fool in Her Wedding Gown"
+album_artist: "The Crane Wives"
+date: 2012-09-22
+cover: "https://f4.bcbits.com/img/a0102816352_10.jpg"
+
+tracks:
+- title: "Icarus"
+  expect_duration: "03:38"
+- title: "Steady, Steady"
+  expect_duration: "04:10"
+- title: "Easier"
+  expect_duration: "03:49"
+- title: "Shallow River"
+  expect_duration: "03:21"
+- title: "Strangler Fig"
+  expect_duration: "03:21"
+- title: "The Glacier House"
+  expect_duration: "03:30"
+- title: "Tongues & Teeth"
+  expect_duration: "03:41"
+- title: "Back to the Ground"
+  expect_duration: "04:51"
+- title: "Show Your Fangs"
+  expect_duration: "03:52"
+- title: "Once & For All"
+  expect_duration: "03:34"
+- title: "Canary in a Coal Mine"
+  expect_duration: "04:08"
+- title: "How to Rest"
+  expect_duration: "05:18"
