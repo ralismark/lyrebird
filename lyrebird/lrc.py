@@ -38,6 +38,8 @@ class LrclibResult(pydantic.BaseModel):
     plainLyrics: str | None
     syncedLyrics: str | None
 
+    source: str
+
 
 class Lrc(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
@@ -98,7 +100,7 @@ class Lrc(pydantic.BaseModel):
         if self.id:
             r = HTTP.get(f"{LRCLIB_API_BASE}/get/{self.id}")
             r.raise_for_status()
-            return LrclibResult(**r.json())
+            return LrclibResult(**r.json(), source="id")
 
         # try match
         if self.try_exact:
@@ -110,7 +112,7 @@ class Lrc(pydantic.BaseModel):
             })
             if r.status_code != 404:
                 r.raise_for_status()
-                data = LrclibResult(**r.json())
+                data = LrclibResult(**r.json(), source="exact")
                 if data.syncedLyrics:
                     return data
 
@@ -122,13 +124,13 @@ class Lrc(pydantic.BaseModel):
                 "album_name": self.album,
             })
             r.raise_for_status()
-            matches: list[LrclibResult] = [LrclibResult(**x) for x in r.json()]
-            matches = sorted(matches, key=lambda m: abs(m.duration - self.duration))
+            matches = sorted(
+                [LrclibResult(**x, source="search") for x in r.json()],
+                key=lambda m: abs(m.duration - self.duration)
+            )
             for m in matches:
                 if not m.syncedLyrics:
                     continue  # we don't care about unsynced lyrics
-                if abs(m.duration - self.duration) > self.duration_slop:
-                    continue  # differs too much
                 return m
 
         return None
@@ -182,8 +184,8 @@ class Lrc(pydantic.BaseModel):
 
         result = self._fetch()
         if not result or not result.syncedLyrics:
-            assert not self.expect, "Expected lyrics but did not find"
-            print("  expect: false # did not find")
+            assert not self.expect, f"Expected lyrics but did not find ({result=})"
+            print("    expect: false # did not find")
             return None
 
         print(f"    id: {result.id}")

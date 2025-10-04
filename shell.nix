@@ -16,9 +16,15 @@ pkgs.mkShellNoCC {
           pydantic
           pyyaml
           requests
+          rich
           yt-dlp
           ;
       });
+
+      lyrebird = pkgs.writeScriptBin "lyrebird" ''
+        #!/bin/sh
+        exec python3 -m lyrebird "$@"
+      '';
   };
 
   PYTHONPATH = HERE;

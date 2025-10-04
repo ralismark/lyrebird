@@ -32,73 +32,73 @@ tracks:
 - title: "100,000 Voices"
   artists:
     - "Jacob Collier"
-  expect_duration: "4:44"
+  expect_duration: 04:44
 - title: "She Put Sunshine"
   artists:
     - "Jacob Collier"
-  expect_duration: "3:30"
+  expect_duration: 03:30
 - title: "Little Blue"
   artists:
     - "Jacob Collier"
     - "Brandi Carlile"
-  expect_duration: "4:25"
+  expect_duration: 04:25
 - title: "WELLLL"
   artists:
     - "Jacob Collier"
-  expect_duration: "2:38"
+  expect_duration: 02:38
 - title: "Cinnamon Crush"
   artists:
     - "Jacob Collier"
     - "Lindsey Lomis"
-  expect_duration: "3:47"
+  expect_duration: 03:47
 - title: "Wherever I Go"
   artists:
     - "Jacob Collier"
     - "Lawrence"
     - "Michael McDonald"
-  expect_duration: "2:46"
+  expect_duration: 02:46
 - title: "Summer Rain"
   artists:
     - "Jacob Collier"
     - "Madison Cunningham"
     - "Chris Thile"
-  expect_duration: "4:51"
+  expect_duration: 04:51
 - title: "A Rock Somewhere"
   artists:
     - "Jacob Collier"
     - "Anoushka Shankar"
     - "Varijashree Venugopal"
-  expect_duration: "5:09"
+  expect_duration: 05:09
 - title: "Mi Corazón"
   artists:
     - "Jacob Collier"
     - "Camilo"
-  expect_duration: "3:06"
+  expect_duration: 03:06
 - title: "Witness Me"
   artists:
     - "Jacob Collier"
     - "Shawn Mendes"
     - "Stormzy"
     - "Kirk Franklin"
-  expect_duration: "3:45"
+  expect_duration: 03:45
 - title: "Never Gonna Be Alone"
   artists:
     - "Jacob Collier"
     - "Lizzy McAlpine"
     - "John Mayer"
-  expect_duration: "4:09"
+  expect_duration: 04:09
 - title: "Bridge over Troubled Water"
   artists:
     - "Jacob Collier"
     - "John Legend"
     - "Tori Kelly"
-  expect_duration: "5:52"
+  expect_duration: 05:52
 - title: "Over You"
   artists:
     - "Jacob Collier"
     - "Aespa"
     - "Chris Martin"
-  expect_duration: "2:53"
+  expect_duration: 02:53
 - title: "Box of Stars Pt. 1"
   artists:
     - "Jacob Collier"
@@ -108,7 +108,7 @@ tracks:
     - "Sho Madjozi"
     - "Yelle"
     - "Kanyi Mavi"
-  expect_duration: "5:16"
+  expect_duration: 05:16
 - title: "Box of Stars Pt. 2"
   artists:
     - "Jacob Collier"
@@ -116,8 +116,8 @@ tracks:
     - "Suzie Collier"
     - "Steve Vai"
     - "VOCES8"
-  expect_duration: "6:12"
+  expect_duration: 06:12
 - title: "World O World"
   artists:
     - "Jacob Collier"
-  expect_duration: "6:14"
+  expect_duration: 06:14

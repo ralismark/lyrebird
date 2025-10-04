@@ -25,26 +25,26 @@ cover: "https://f4.bcbits.com/img/a0102816352_10.jpg"
 
 tracks:
 - title: "Icarus"
-  expect_duration: "03:38"
+  expect_duration: 03:38
 - title: "Steady, Steady"
-  expect_duration: "04:10"
+  expect_duration: 04:10
 - title: "Easier"
-  expect_duration: "03:49"
+  expect_duration: 03:49
 - title: "Shallow River"
-  expect_duration: "03:21"
+  expect_duration: 03:21
 - title: "Strangler Fig"
-  expect_duration: "03:21"
+  expect_duration: 03:21
 - title: "The Glacier House"
-  expect_duration: "03:30"
+  expect_duration: 03:30
 - title: "Tongues & Teeth"
-  expect_duration: "03:41"
+  expect_duration: 03:41
 - title: "Back to the Ground"
-  expect_duration: "04:51"
+  expect_duration: 04:51
 - title: "Show Your Fangs"
-  expect_duration: "03:52"
+  expect_duration: 03:52
 - title: "Once & For All"
-  expect_duration: "03:34"
+  expect_duration: 03:34
 - title: "Canary in a Coal Mine"
-  expect_duration: "04:08"
+  expect_duration: 04:08
 - title: "How to Rest"
-  expect_duration: "05:18"
+  expect_duration: 05:18

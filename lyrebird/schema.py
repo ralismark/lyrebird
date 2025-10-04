@@ -39,14 +39,3 @@ class Album(AlbumMeta, AlbumFetch):
             if ntracks != len(self.expect_files):
                 raise ValueError(f"len(expect_files) ({len(self.expect_files)}) != len(tracks) {ntracks}")
         return self
-
-    # =========================================================================
-
-    @classmethod
-    def argparse(cls, path: str) -> t.Self:
-        with open(path, "rt") as f:
-            try:
-                return cls(**yaml.safe_load(f))
-            except pydantic.ValidationError as e:
-                print(e)
-                raise e
