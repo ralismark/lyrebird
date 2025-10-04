@@ -1,0 +1,59 @@
+# fetching info
+url: "https://c418.bandcamp.com/album/seven-years-of-server-data"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "Seven Years of Server Data"
+album_artist: "C418"
+date: 2011-11-03
+cover: "https://f4.bcbits.com/img/a0115316694_10.jpg"
+
+tracks:
+- title: Atempause
+  expect_duration: 0:02:03
+- title: Vlem
+  expect_duration: 0:02:07
+- title: BGC418
+  artists:
+    - "C418"
+    - "Big Giant Circles"
+  expect_duration: 0:04:02
+- title: mau5cave
+  artists:
+    - "C418"
+    - "Deadmau5"
+  expect_duration: 0:03:04
+- title: The first unfinished song for the Minecraft documentary
+  expect_duration: 0:07:38
+- title: The song I show if someone wants to hear a new Minecraft song
+  expect_duration: 0:00:53
+- title: Tonic (C418's "I use this in my set" remix)
+  artists:
+    - "Lusine Icl"
+  expect_duration: 0:04:03
+- title: Lemons (C418's "I want this to be a complete song" mix)
+  artists:
+    - "Weebl"
+  expect_duration: 0:02:49
+- title: water
+  expect_duration: 0:01:45
+- title: a fail
+  expect_duration: 0:01:52
+- title: The weirdest remix I ever worked on.
+  expect_duration: 0:02:51
+- title: Some really obscure ambient tune
+  expect_duration: 0:01:39
+- title: komphund
+  expect_duration: 0:01:35
+- title: Not Atlantis
+  expect_duration: 0:01:15
+- title: Another weird ambient tune.
+  expect_duration: 0:02:17
+- title: sirtet
+  expect_duration: 0:01:34
+- title: What it would have sounded like if I were to DJ 5 years ago
+  expect_duration: 0:06:38
+- title: Cobalt Something Something
+  expect_duration: 0:02:40

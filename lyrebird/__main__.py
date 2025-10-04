@@ -10,12 +10,13 @@ import rich.console
 import mutagen.mp3
 import shutil
 import yaml
+import asyncio
 
 
 console = rich.console.Console()
 
 
-def process_album(
+async def process_album(
     album: Album,
     outdir: Path,
 ):
@@ -61,7 +62,7 @@ def process_album(
             console.print_exception()
 
 
-def main() -> None:
+async def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("spec", nargs="+", type=Path)
     parser.add_argument("--validate-only", action=argparse.BooleanOptionalAction, default=False)
@@ -83,10 +84,10 @@ def main() -> None:
     for spec, album in albums:
         console.print(f"===== {spec}", style="bold blue")
         try:
-            process_album(album, args.out)
+            await process_album(album, args.out)
         except Exception:
             console.print_exception()
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

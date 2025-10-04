@@ -1,0 +1,42 @@
+
+# fetching info
+url: "https://viennateng.bandcamp.com/album/aims"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "Aims"
+album_artist: "Vienna Teng"
+date: 2013-09-24
+cover: "https://f4.bcbits.com/img/a3295576237_10.jpg"
+
+tracks:
+- title: Level Up
+  expect_duration: 0:03:53
+- title: In the 99
+  expect_duration: 0:03:38
+- title: Landsailor
+  artists:
+  - Vienna Teng
+  - Glen Phillips
+  expect_duration: 0:03:45
+- title: Close to Home
+  expect_duration: 0:03:56
+- title: The Hymn of Acxiom
+  expect_duration: 0:03:49
+- title: Oh Mama No
+  expect_duration: 0:02:12
+- title: Copenhagen (Let Me Go)
+  expect_duration: 0:03:03
+- title: Flyweight Love
+  expect_duration: 0:04:02
+- title: The Breaking Light
+  artists:
+  - Vienna Teng
+  - Alex Wong
+  expect_duration: 0:04:21
+- title: Never Look Away
+  expect_duration: 0:03:33
+- title: Goodnight New York
+  expect_duration: 0:03:23

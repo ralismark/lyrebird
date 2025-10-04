@@ -66,7 +66,7 @@ def main():
 url: "{album.url}"
 
 lrc:
-  expect: true
+  expect: ~
 
 # common metadata
 album: "{album.album}"
