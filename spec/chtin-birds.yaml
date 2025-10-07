@@ -1,0 +1,83 @@
+url: "https://music.youtube.com/playlist?list=OLAK5uy_leSARxC3uyrVgnMpChswILJ0neTeSqGS4"
+expect_files:
+  - "01 - Flocks a Mile Wide.mp3"
+  - "02 - The Saddest Noise.mp3"
+  - "03 - Bird Raptures.mp3"
+  - "04 - A Hundred Thousand Birds.mp3"
+  - "05 - Wild Swans.mp3"
+  - "06 - Intermezzo.mp3"
+  - "07 - Thus in the Winter.mp3"
+  - "08 - There Will Come Soft Rains.mp3"
+  - "09 - All That Could Never Be Said.mp3"
+  - "10 - I Shall Not See the Shadows.mp3"
+  - "11 - In the End.mp3"
+  - "12 - Hope Is the Thing with Feathers.mp3"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "The Lost Birds"
+album_artist: "Christopher Tin"
+date: 2022-09-30
+cover: "https://cdn.shopify.com/s/files/1/0605/3655/3691/files/TheLostBirds-Cover-1600x1600.jpg"
+
+tracks:
+- title: "Flocks a Mile Wide"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+- title: "The Saddest Noise"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "Bird Raptures"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "A Hundred Thousand Birds"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "Wild Swans"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "Intermezzo"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+- title: "Thus in the Winter"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "There Will Come Soft Rains"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "All That Could Never Be Said"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "I Shall Not See the Shadows"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "In the End"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8
+- title: "Hope Is the Thing with Feathers"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - VOCES8

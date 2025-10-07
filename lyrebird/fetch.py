@@ -22,7 +22,7 @@ class AlbumFetch(pydantic.BaseModel):
     @staticmethod
     def _do_fetch_album(url: str, dir: Path):
         try:
-            ydl_opts = {
+            with YoutubeDL({
                 "format": "bestaudio/best",
                 "postprocessors": [{
                     "key": "FFmpegExtractAudio",
@@ -31,8 +31,7 @@ class AlbumFetch(pydantic.BaseModel):
                 "writethumbnail": True,
                 # s/%/%%/g for printf-string
                 "outtmpl": str(dir).replace("%", "%%") + "/%(autonumber)02d - %(title)s.%(ext)s",
-            }
-            with YoutubeDL(ydl_opts) as ydl:
+            }) as ydl:
                 error = ydl.download([url])
                 if error:
                     raise RuntimeError(f"yt_dlp: {error}")
@@ -58,7 +57,7 @@ class AlbumFetch(pydantic.BaseModel):
         mp3s: list[Path] = [p for _, p in entries]
 
         # Validation
-        for i, (scanned_i, _) in enumerate(sorted(entries), start=1):
+        for i, (scanned_i, path) in enumerate(sorted(entries), start=1):
             if i != scanned_i:
                 raise ValidationError(f"skipped track index: {i} (found {path} next)")
 

@@ -1,0 +1,93 @@
+# fetching info
+url: "https://harrycallaghan.bandcamp.com/album/portal-stories-mel-soundtrack"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "Portal Stories: Mel Soundtrack"
+album_artist: "Harry Callaghan"
+date: 2015-06-25
+cover: "https://f4.bcbits.com/img/a1292517101_10.jpg"
+
+tracks:
+- title: Interfacing # 01
+  expect_duration: 0:02:35
+- title: Arrival # 02
+  expect_duration: 0:01:50
+- title: Aperture Central # 03
+  expect_duration: 0:01:30
+- title: The Spheres # 04
+  expect_duration: 0:03:00
+- title: Deep Sleep # 05
+  expect_duration: 0:01:33
+- title: Waking Up To Science # 06
+  expect_duration: 0:02:23
+- title: Testing Begins # 07
+  expect_duration: 0:02:28
+- title: Adjacency # 08
+  expect_duration: 0:02:00
+- title: Out Of Order # 09
+  expect_duration: 0:03:20
+- title: Acceleration # 10
+  expect_duration: 0:02:53
+- title: Firestorm # 11
+  expect_duration: 0:02:30
+- title: The Junkyards # 12a
+  expect_duration: 0:02:43
+- title: The Junkyard Offices # 12b
+  expect_duration: 0:02:00
+- title: Welcome To The Future # 13a
+  expect_duration: 0:02:18
+- title: Welcome To The Future [funnel] # 13b
+  expect_duration: 0:02:15
+- title: Long Way Down # 14a
+  expect_duration: 0:01:45
+- title: Long Way Down [funnel] # 14b
+  expect_duration: 0:01:42
+- title: Obscuration # 15a
+  expect_duration: 0:02:43
+- title: Obscuration [funnel] # 15b
+  expect_duration: 0:02:42
+- title: Transitional Period # 16a
+  expect_duration: 0:02:00
+- title: Transitional Period [funnel] # 16b
+  expect_duration: 0:02:00
+- title: Natural Light # 17a
+  expect_duration: 0:01:50
+- title: Natural Light [funnel] # 17b
+  expect_duration: 0:01:48
+- title: Troubled Water # 18a
+  expect_duration: 0:02:22
+- title: Troubled Water [funnel] # 18b
+  expect_duration: 0:02:21
+- title: Testing With Nature # 19a
+  expect_duration: 0:01:50
+- title: Testing With Nature [funnel] # 19b
+  expect_duration: 0:00:56
+- title: Skototropism # 20a
+  expect_duration: 0:02:15
+- title: Skototropism [funnel] # 20b
+  expect_duration: 0:02:17
+- title: Halted Production # 21
+  expect_duration: 0:02:40
+- title: Live Fire Exercise # 22a
+  expect_duration: 0:01:56
+- title: Live Fire Exercise [funnel] # 22b
+  expect_duration: 0:01:08
+- title: System Corruption # 23
+  expect_duration: 0:02:17
+- title: Decades Of Science # 24
+  expect_duration: 0:02:12
+- title: The Best The World Had To Offer # 25
+  expect_duration: 0:01:39
+- title: Mel's Story # 26
+  expect_duration: 0:04:15
+- title: Troubled Water [trailer theme] # 27
+  expect_duration: 0:01:31
+- title: Waking Up To Science [menu] # 28
+  expect_duration: 0:01:36
+- title: Adjacency [menu] # 29
+  expect_duration: 0:02:00
+- title: System Corruption [alternate] # 30
+  expect_duration: 0:03:21

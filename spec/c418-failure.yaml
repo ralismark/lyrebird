@@ -1,0 +1,43 @@
+# fetching info
+url: "https://c418.bandcamp.com/album/2-years-of-failure"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "2 years of failure"
+album_artist: "C418"
+date: 2016-09-13
+cover: "https://f4.bcbits.com/img/a2851259844_10.jpg"
+
+tracks:
+- title: 90s_in
+  expect_duration: 0:00:32
+- title: 90s_tripverse
+  expect_duration: 0:05:02
+- title: 90s_ani
+  expect_duration: 0:02:48
+- title: 90s_management
+  expect_duration: 0:02:12
+- title: 90s_nostress
+  expect_duration: 0:03:05
+- title: 90s_out
+  expect_duration: 0:02:04
+- title: pizza
+  expect_duration: 0:01:55
+- title: house_loneliness
+  expect_duration: 0:02:36
+- title: choice_broken
+  expect_duration: 0:05:04
+- title: cr1_meadow
+  expect_duration: 0:06:00
+- title: cr2_finl
+  expect_duration: 0:05:56
+- title: 185_pre
+  expect_duration: 0:09:04
+- title: egoismus_2016edit
+  expect_duration: 0:04:56
+- title: kaneda
+  expect_duration: 0:06:29
+- title: stranger_think
+  expect_duration: 0:04:07

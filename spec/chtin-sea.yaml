@@ -1,0 +1,76 @@
+url: "https://music.youtube.com/playlist?list=OLAK5uy_krtTpKyRf_ehfpHYpcQtAVkCDWv1fABJE"
+expect_files:
+  - "01 - Water Prelude.mp3"
+  - "02 - Tin： Haktan Gelen Şerbeti - ＂The Drink from God＂.mp3"
+  - "03 - Tin： Temen Oblak - ＂Dark Clouds＂.mp3"
+  - "04 - Christopher Tin - Iza Ngomso ＂Come Tomorrow＂ (Visualizer).mp3"
+  - "05 - Tin： Tsas Narand Uyarna - ＂The Heart of Snow＂.mp3"
+  - "06 - Tin： Passou O Verão - ＂Summer Has Gone＂.mp3"
+  - "07 - Tin： Devipravaha - ＂Goddess River＂.mp3"
+  - "08 - Tin： Seirenes - ＂Sirens＂.mp3"
+  - "09 - Tin： Haf Gengr Hriđum - ＂The Storm-Driven Sea＂.mp3"
+  - "10 - Tin： Waloyo Yamoni - ＂We Overcome the Wind＂.mp3"
+
+lrc:
+  expect: true
+  artist: Christopher Tin
+
+# common metadata
+album: "The Drop That Contained the Sea"
+album_artist: "Christopher Tin"
+date: 2014-05-08
+cover: "https://cdn.shopify.com/s/files/1/0605/3655/3691/files/TheDropThatContainedTheSea-Cover-1600x1600.jpg"
+
+tracks:
+- title: Water Prelude
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Angel City Chorale
+- title: Haktan Gelen Şerbeti - "The Drink from God"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Kardeş Türküler
+- title: Temen Oblak - "Dark Clouds"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Le Mystère des Voix Bulgares
+- title: Iza Ngomso - "Come Tomorrow"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Soweto Gospel Choir
+- title: Tsas Narand Uyarna - "The Heart of Snow"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Nominjin
+- title: Passou o Verão - "Summer Has Gone"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Dulce Pontes
+  lrc:
+    expect: ~ # lrclib doesn't have synced lyrics :(
+- title: Devipravaha - "Goddess River"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Roopa Mahadevan
+- title: Seirenes - "Sirens"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Anonymous 4
+- title: Haf Gengr Hriðum - "The Storm-Driven Sea"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Schola Cantorum
+- title: Waloyo Yamoni - "We Overcome the Wind"
+  artists:
+  - Christopher Tin
+  - Royal Philharmonic Orchestra
+  - Soweto Gospel Choir

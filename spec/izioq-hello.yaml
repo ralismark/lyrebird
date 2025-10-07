@@ -1,0 +1,53 @@
+# fetching info
+url: "https://izioq.bandcamp.com/album/hello-im-an-album"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "HELLO! I'M AN ALBUM!"
+album_artist: "izioq"
+date: 2017-01-06
+cover: "https://f4.bcbits.com/img/a2745929922_10.jpg"
+
+tracks:
+- title: Nice to meet YOU I'm the FIRST TRACK
+  expect_duration: 0:02:09
+- title: One day I'll be an indie dev
+  expect_duration: 0:03:13
+- title: Sad and Lonely
+  expect_duration: 0:02:07
+- title: I guess I should play UNDERTALE
+  expect_duration: 0:01:40
+- title: Pixel Art is fun to make
+  expect_duration: 0:02:43
+- title: Instrumental music needs meaningful title
+  expect_duration: 0:02:55
+- title: I can't make an album without a song about my cat
+  expect_duration: 0:02:46
+- title: Doodoon Song
+  expect_duration: 0:02:31
+- title: My best friend was a robot
+  expect_duration: 0:04:45
+- title: My life is a 16-bit JRPG
+  expect_duration: 0:02:45
+- title: izioqism
+  expect_duration: 0:02:30
+- title: A Nifflas lecture
+  expect_duration: 0:02:10
+- title: Ode to the day I bought MARIO PAINT
+  expect_duration: 0:01:13
+- title: French Frog Fromage
+  expect_duration: 0:02:47
+- title: Summer Childhood
+  expect_duration: 0:01:08
+- title: Winter Childhood
+  expect_duration: 0:02:24
+- title: Phil Fish loneliness
+  expect_duration: 0:02:02
+- title: Joyeuses Vagues
+  expect_duration: 0:02:58
+- title: See you soon
+  expect_duration: 0:01:28
+- title: "[Bonus Track] 6 fragments of unfinished songs"
+  expect_duration: 0:05:07

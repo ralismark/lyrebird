@@ -1,0 +1,61 @@
+# fetching info
+url: "https://scruffymusic.bandcamp.com/album/animal-crossing-taking-root-2"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "Animal Crossing: Taking Root"
+album_artist: "Scruffy"
+date: 2021-06-15
+cover: "https://f4.bcbits.com/img/a2759567734_10.jpg"
+
+tracks:
+- title: 6 AM
+  expect_duration: 0:01:31
+- title: 7 AM
+  expect_duration: 0:01:36
+- title: 8 AM
+  expect_duration: 0:01:30
+- title: 9 AM
+  expect_duration: 0:01:09
+- title: 10 AM
+  expect_duration: 0:01:22
+- title: 11 AM
+  expect_duration: 0:01:46
+- title: 12 PM
+  expect_duration: 0:01:30
+- title: 1 PM
+  expect_duration: 0:01:42
+- title: 2 PM
+  expect_duration: 0:01:25
+- title: 3 PM
+  expect_duration: 0:01:13
+- title: 4 PM
+  expect_duration: 0:01:31
+- title: 5 PM
+  expect_duration: 0:01:32
+- title: 6 PM
+  expect_duration: 0:01:20
+- title: 7 PM
+  expect_duration: 0:01:31
+- title: 8 PM
+  expect_duration: 0:01:41
+- title: 9 PM
+  expect_duration: 0:01:34
+- title: 10 PM
+  expect_duration: 0:01:17
+- title: 11 PM
+  expect_duration: 0:01:21
+- title: 12 AM
+  expect_duration: 0:01:49
+- title: 1 AM
+  expect_duration: 0:01:48
+- title: 2 AM
+  expect_duration: 0:01:30
+- title: 3 AM
+  expect_duration: 0:01:32
+- title: 4 AM
+  expect_duration: 0:01:49
+- title: 5 AM
+  expect_duration: 0:01:40

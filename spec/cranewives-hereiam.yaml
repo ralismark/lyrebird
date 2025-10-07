@@ -1,0 +1,53 @@
+# fetching info
+url: "https://thecranewives.bandcamp.com/album/here-i-am"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "Here I Am"
+album_artist: "The Crane Wives"
+date: 2020-10-14
+cover: "https://f4.bcbits.com/img/a0783139450_10.jpg"
+
+tracks:
+- title: Daydreamer
+  expect_duration: 0:04:31
+- title: Volta
+  expect_duration: 0:04:01
+- title: Metaphor
+  expect_duration: 0:03:43
+- title: Nothing at All
+  expect_duration: 0:04:03
+- title: Here I Am
+  expect_duration: 0:03:38
+- title: Nobody
+  expect_duration: 0:04:19
+- title: Queen of Nothing
+  expect_duration: 0:04:18
+- title: Hollow Moon
+  expect_duration: 0:03:22
+- title: Taking Turns
+  expect_duration: 0:04:23
+- title: Drown You Out
+  expect_duration: 0:04:11
+- title: Curses
+  expect_duration: 0:03:56
+- title: Empty Page
+  expect_duration: 0:04:16
+- title: Sowing Seeds
+  expect_duration: 0:03:48
+- title: Down the River
+  expect_duration: 0:03:38
+- title: The Wolf
+  expect_duration: 0:04:51
+- title: Allies or Enemies
+  expect_duration: 0:03:04
+- title: High Horse
+  expect_duration: 0:04:27
+- title: October
+  expect_duration: 0:04:47
+- title: The Hand That Feeds
+  expect_duration: 0:04:13
+- title: Tongues & Teeth
+  expect_duration: 0:03:56

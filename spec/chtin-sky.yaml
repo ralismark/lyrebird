@@ -1,0 +1,95 @@
+url: "https://music.youtube.com/playlist?list=OLAK5uy_m0x6iCNSzuqr8_fg3H9OWFohm01mHPhXw"
+expect_files:
+  - "01 - Christopher Tin - Sogno di Volare (＂The Dream of Flight＂) (Official Video) feat. Royal Opera Chorus.mp3"
+  - "02 - Tin： The Heavenly Kingdom.mp3"
+  - "03 - Christopher Tin - Daedalus and Icarus (Lyric Video) feat. Pene Pati, Royal Opera Chorus.mp3"
+  - "04 - Christopher Tin - The Fall (Visualizer) ft. ModernMedieval, Pene Pati.mp3"
+  - "05 - Christopher Tin - Astronomy (Score Animation) feat. The Assembly.mp3"
+  - "06 - Tin： To the Stars.mp3"
+  - "07 - Christopher Tin - Oh, the Humanity (Lyric Video) feat. Pene Pati.mp3"
+  - "08 - Christopher Tin - Courage (Official Video) feat. Danielle de Niese.mp3"
+  - "09 - Tin： Become Death.mp3"
+  - "10 - Christopher Tin - The Power of the Spirit (Official Video) feat. Royal Opera Chorus.mp3"
+  - "11 - Tin： We Choose to Go to the Moon.mp3"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "To Shiver the Sky"
+album_artist: "Christopher Tin"
+date: 2020-08-21
+cover: "https://cdn.shopify.com/s/files/1/0605/3655/3691/files/ToShiverTheSky-Cover-1600x1600.jpg"
+
+tracks:
+- title: Sogno di Volare ("The Dream of Flight")
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Royal Opera Chorus"
+- title: The Heavenly Kingdom
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "ModernMedieval"
+    - "The Assembly"
+- title: Daedalus and Icarus
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Pene Pati"
+    - "Royal Opera Chorus"
+    - "The Assembly"
+  lrc:
+    expect: false # closest one is has duration that is too off
+- title: The Fall
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Pene Pati"
+    - "ModernMedieval"
+    - "Royal Opera Chorus"
+- title: Astronomy
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "The Assembly"
+    - "Anna Lapwood"
+- title: To the Stars
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Pembroke College Girls' Choir"
+    - "The Assembly"
+- title: Oh, the Humanity
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Pene Pati"
+    - "Royal Opera Chorus"
+- title: Courage
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Danielle de Niese"
+- title: Become Death
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "ModernMedieval"
+    - "Royal Opera Chorus"
+- title: The Power of the Spirit
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Royal Opera Chorus"
+- title: We Choose to Go to the Moon
+  artists:
+    - "Christopher Tin"
+    - "Royal Philharmonic Orchestra"
+    - "Danielle de Niese"
+    - "Pene Pati"
+    - "ModernMedieval"
+    - "Pembroke College Girls' Choir"
+    - "Royal Opera Chorus"
+    - "The Assembly"
