@@ -22,7 +22,6 @@ def scrape_track(track: bs4.Tag) -> Track:
 
     return Track(
         title=title,
-        expect_duration=dt.timedelta(minutes=int(mm), seconds=int(ss)),
     )
 
 
@@ -49,7 +48,7 @@ def scrape_page(url: str) -> Album:
         album_artist=artist,
         date=date,
         cover=cover,
-        tracks=[scrape_track(t) for t in tracks],
+        tracks=tuple(scrape_track(t) for t in tracks),
     )
     raise ValueError()
 
@@ -61,7 +60,8 @@ def main():
 
     album = scrape_page(args.url)
 
-    print(f"""
+    print(
+        f"""
 # fetching info
 url: "{album.url}"
 
@@ -75,12 +75,14 @@ date: {album.date:%Y-%m-%d}
 cover: "{album.cover}"
 
 tracks:
-    """.strip())
+    """.strip()
+    )
     for track in album.tracks:
-        print(f"""
+        print(
+            f"""
 - title: {track.title}
-  expect_duration: {track.expect_duration}
-        """.strip())
+        """.strip()
+        )
 
 
 if __name__ == "__main__":

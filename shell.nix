@@ -14,10 +14,13 @@ pkgs.mkShellNoCC {
         inherit (p)
           beautifulsoup4
           mutagen
+          mypy
           pydantic
           pyyaml
           requests
           rich
+          types-pyyaml
+          types-requests
           yt-dlp
           ;
       });

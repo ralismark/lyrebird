@@ -17,10 +17,12 @@ if t.TYPE_CHECKING:
 class AlbumMeta(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
-    album: str
+    album: str | None
     album_artist: str
-    date: dt.date
-    cover: str
+    date: dt.date | None
+    cover: str | None
+
+    singles: bool = False
 
 
 class TrackMeta(pydantic.BaseModel):
@@ -32,40 +34,49 @@ class TrackMeta(pydantic.BaseModel):
 
 
 # TODO this depends too much on the top-level types
+def _generate_tags(
+    track: "Track",
+    album: "Album",
+    index: int,
+) -> t.Iterable[mutagen.id3.Frame]:
+    utf8 = mutagen.id3.Encoding.UTF8
+
+    # track tags
+    yield mutagen.id3.TIT2(encoding=utf8, text=track.title)
+    yield mutagen.id3.TPE1(encoding=utf8, text=track.artists or [album.album_artist])
+    if not album.singles:
+        yield mutagen.id3.TRCK(encoding=utf8, text=[f"{index}/{len(album.tracks)}"])
+
+    # album tags
+    if not album.singles:
+        assert album.album
+        assert album.album_artist
+        assert album.date
+
+        yield mutagen.id3.TALB(encoding=utf8, text=[album.album])
+        yield mutagen.id3.TPE2(encoding=utf8, text=[album.album_artist])
+        yield mutagen.id3.TYER(encoding=utf8, text=[album.date.strftime("%Y")])
+
+    # fetch
+    yield mutagen.id3.WOAS(url=track.url or album.url)
+
+    # cover
+    cover_url = track.cover or album.cover
+    cover_mime, cover_data = fetch_cover(cover_url)
+    yield mutagen.id3.APIC(
+        mime=cover_mime,
+        type=mutagen.id3.PictureType.COVER_FRONT,
+        desc=cover_url,
+        data=cover_data,
+    )
+
+
 def tag(
     track: "Track",
     album: "Album",
     index: int,
 ) -> mutagen.id3.ID3:
-    utf8 = mutagen.id3.Encoding.UTF8
-
-    frames: list[mutagen.id3.Frame] = []
-    # track tags
-    frames.extend([
-        mutagen.id3.TIT2(encoding=utf8, text=track.title),
-        mutagen.id3.TPE1(encoding=utf8, text=track.artists or [album.album_artist]),
-        mutagen.id3.TRCK(encoding=utf8, text=[f"{index}/{len(album.tracks)}"]),
-    ])
-    # album tags
-    frames.extend([
-        mutagen.id3.TALB(encoding=utf8, text=[album.album]),
-        mutagen.id3.TPE2(encoding=utf8, text=[album.album_artist]),
-        mutagen.id3.TYER(encoding=utf8, text=[album.date.strftime("%Y")]),
-        mutagen.id3.WOAS(url=album.url),
-    ])
-    # cover
-    cover_url = track.cover or album.cover
-    cover_mime, cover_data = fetch_cover(cover_url)
-    frames.extend([
-        mutagen.id3.APIC(
-            mime=cover_mime,
-            type=mutagen.id3.PictureType.COVER_FRONT,
-            desc=cover_url,
-            data=cover_data,
-        )
-    ])
-
     tags = mutagen.id3.ID3()
-    for frame in frames:
+    for frame in _generate_tags(track, album, index):
         tags.add(frame)
     return tags

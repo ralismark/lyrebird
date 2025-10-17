@@ -83,7 +83,7 @@ class Lrc(pydantic.BaseModel):
         return cls(
             track=track.title,
             artist=", ".join(track.artists or [album.album_artist]),
-            album=album.album,
+            album=album.album or track.title,
             duration=duration,
         )
 
@@ -104,12 +104,15 @@ class Lrc(pydantic.BaseModel):
 
         # try match
         if self.try_exact:
-            r = HTTP.get(f"{LRCLIB_API_BASE}/get", params={
-                "track_name": self.track,
-                "artist_name": self.artist,
-                "album_name": self.album,
-                "duration": round(self.duration),
-            })
+            r = HTTP.get(
+                f"{LRCLIB_API_BASE}/get",
+                params={
+                    "track_name": self.track,
+                    "artist_name": self.artist,
+                    "album_name": self.album,
+                    "duration": round(self.duration),
+                },
+            )
             if r.status_code != 404:
                 r.raise_for_status()
                 data = LrclibResult(**r.json(), source="exact")
@@ -118,15 +121,18 @@ class Lrc(pydantic.BaseModel):
 
         # fallback: search
         if self.try_search:
-            r = HTTP.get(f"{LRCLIB_API_BASE}/search", params={
-                "track_name": self.track,
-                "artist_name": self.artist,
-                "album_name": self.album,
-            })
+            r = HTTP.get(
+                f"{LRCLIB_API_BASE}/search",
+                params={
+                    "track_name": self.track,
+                    "artist_name": self.artist,
+                    "album_name": self.album,
+                },
+            )
             r.raise_for_status()
             matches = sorted(
                 [LrclibResult(**x, source="search") for x in r.json()],
-                key=lambda m: abs(m.duration - self.duration)
+                key=lambda m: abs(m.duration - self.duration),
             )
             for m in matches:
                 if not m.syncedLyrics:
@@ -140,10 +146,7 @@ class Lrc(pydantic.BaseModel):
         Perform post-processing steps on a lrc file.
         """
         # fastpath: if no processing needed, just return
-        if (
-            self.offset is None and
-            self.start is None
-        ):
+        if self.offset is None and self.start is None:
             return lrc
 
         offset = self.offset or dt.timedelta()
@@ -157,7 +160,9 @@ class Lrc(pydantic.BaseModel):
             m = RE_LRC.fullmatch(line)
             assert m
             mm, ss, xx, lyric = m.groups()
-            timestamp = dt.timedelta(minutes=int(mm), seconds=int(ss), milliseconds=10 * int(xx))
+            timestamp = dt.timedelta(
+                minutes=int(mm), seconds=int(ss), milliseconds=10 * int(xx)
+            )
 
             # apply offset
             if i == 0 and self.start:
@@ -189,7 +194,9 @@ class Lrc(pydantic.BaseModel):
             return None
 
         print(f"    id: {result.id}")
-        assert abs(result.duration - self.duration) <= self.duration_slop, f"lrc duration {result.duration}s too different from mp3 duration {self.duration}s"
+        assert (
+            abs(result.duration - self.duration) <= self.duration_slop
+        ), f"lrc duration {result.duration}s too different from mp3 duration {self.duration}s"
 
         lrc = result.syncedLyrics
         lrc = self._postprocess(lrc)

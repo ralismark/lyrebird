@@ -1,10 +1,5 @@
 # fetching info
 url: "https://yaelokre.bandcamp.com/album/hayfields"
-expect_files:
-  - "01 - Yaelokre - Hartebeest.mp3"
-  - "02 - Yaelokre - Harpy Hare.mp3"
-  - "03 - Yaelokre - And the Hound.mp3"
-  - "04 - Yaelokre - Neath the grove is a heart.mp3"
 
 lrc:
   expect: true
@@ -17,10 +12,6 @@ cover: "https://f4.bcbits.com/img/a3757378113_10.jpg"
 
 tracks:
 - title: Hartebeest
-  expect_duration: 0:04:14
 - title: Harpy Hare
-  expect_duration: 0:03:00
 - title: And the Hound
-  expect_duration: 0:03:23
 - title: Neath the grove is a heart
-  expect_duration: 0:05:30

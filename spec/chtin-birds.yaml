@@ -1,17 +1,4 @@
 url: "https://music.youtube.com/playlist?list=OLAK5uy_leSARxC3uyrVgnMpChswILJ0neTeSqGS4"
-expect_files:
-  - "01 - Flocks a Mile Wide.mp3"
-  - "02 - The Saddest Noise.mp3"
-  - "03 - Bird Raptures.mp3"
-  - "04 - A Hundred Thousand Birds.mp3"
-  - "05 - Wild Swans.mp3"
-  - "06 - Intermezzo.mp3"
-  - "07 - Thus in the Winter.mp3"
-  - "08 - There Will Come Soft Rains.mp3"
-  - "09 - All That Could Never Be Said.mp3"
-  - "10 - I Shall Not See the Shadows.mp3"
-  - "11 - In the End.mp3"
-  - "12 - Hope Is the Thing with Feathers.mp3"
 
 lrc:
   expect: ~

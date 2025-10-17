@@ -1,16 +1,4 @@
 url: "https://music.youtube.com/playlist?list=OLAK5uy_m0x6iCNSzuqr8_fg3H9OWFohm01mHPhXw"
-expect_files:
-  - "01 - Christopher Tin - Sogno di Volare (＂The Dream of Flight＂) (Official Video) feat. Royal Opera Chorus.mp3"
-  - "02 - Tin： The Heavenly Kingdom.mp3"
-  - "03 - Christopher Tin - Daedalus and Icarus (Lyric Video) feat. Pene Pati, Royal Opera Chorus.mp3"
-  - "04 - Christopher Tin - The Fall (Visualizer) ft. ModernMedieval, Pene Pati.mp3"
-  - "05 - Christopher Tin - Astronomy (Score Animation) feat. The Assembly.mp3"
-  - "06 - Tin： To the Stars.mp3"
-  - "07 - Christopher Tin - Oh, the Humanity (Lyric Video) feat. Pene Pati.mp3"
-  - "08 - Christopher Tin - Courage (Official Video) feat. Danielle de Niese.mp3"
-  - "09 - Tin： Become Death.mp3"
-  - "10 - Christopher Tin - The Power of the Spirit (Official Video) feat. Royal Opera Chorus.mp3"
-  - "11 - Tin： We Choose to Go to the Moon.mp3"
 
 lrc:
   expect: ~

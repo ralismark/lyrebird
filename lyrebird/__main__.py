@@ -21,17 +21,24 @@ async def process_album(
     outdir: Path,
 ):
     # fetch album stuff
-    fetched_files = album.fetch_album()
+    fetched_files = album.fetch()
     assert len(fetched_files) == len(album.tracks)
 
-    mime, data = fetch_cover(album.cover)
-    ext = mimetypes.guess_extension(mime)
-    assert ext
-    with (outdir / f"cover{ext}").open("wb") as f:
-        f.write(data)
+    if album.cover:
+        mime, data = fetch_cover(album.cover)
+        ext = mimetypes.guess_extension(mime)
+        assert ext
+        with (outdir / f"cover{ext}").open("wb") as f:
+            f.write(data)
 
-    for i, (fetched_path, track) in enumerate(zip(fetched_files, album.tracks), start=1):
-        path = outdir / f"{i:02} - {track.title}.mp3"
+    for i, (fetched_path, track) in enumerate(
+        zip(fetched_files, album.tracks), start=1
+    ):
+        path: Path
+        if album.singles:
+            path = outdir / f"{track.title}.mp3"
+        else:
+            path = outdir / f"{track.title}.mp3"
         console.print(f"===== {path.name}", style="bold yellow")
 
         try:
@@ -46,12 +53,11 @@ async def process_album(
             tags = tag(track, album, index=i)
             tags.save(path, v1=0, v2_version=4)
 
-            lrc = (
-                Lrc
-                .from_track(track, album, mp3.info.length)
-                .update(album.lrc)
-                .update(track.lrc)
-            )
+            lrc = Lrc.from_track(track, album, mp3.info.length)
+            if not album.singles:
+                lrc = lrc.update(album.lrc)
+            lrc = lrc.update(track.lrc)
+
             if lyrics := lrc.load():
                 with path.with_suffix(".lrc").open("w") as f:
                     f.write(lyrics)
@@ -62,7 +68,9 @@ async def process_album(
 async def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("spec", nargs="+", type=Path)
-    parser.add_argument("--validate-only", action=argparse.BooleanOptionalAction, default=False)
+    parser.add_argument(
+        "--validate-only", action=argparse.BooleanOptionalAction, default=False
+    )
     parser.add_argument("--out", "-o", type=Path, default=Path.cwd())
     parser.add_argument("--ifne", action=argparse.BooleanOptionalAction, default=False)
     args = parser.parse_args()
@@ -80,7 +88,12 @@ async def main() -> None:
         return
 
     for spec, album in albums:
-        albumdir: Path = args.out / f"{album.album_artist} - {album.album}"
+        albumdir: Path
+        if album.singles:
+            albumdir = args.out / f"{album.album_artist}"
+        else:
+            albumdir = args.out / f"{album.album_artist} - {album.album}"
+
         if args.ifne and albumdir.exists():
             continue
 

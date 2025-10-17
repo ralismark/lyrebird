@@ -1,17 +1,5 @@
 # fetching info
 url: "https://thecranewives.bandcamp.com/album/foxlore"
-expect_files:
-  - "01 - The Crane Wives - Nothing At All.mp3"
-  - "02 - The Crane Wives - I Talk in My Sleep.mp3"
-  - "03 - The Crane Wives - Down the River.mp3"
-  - "04 - The Crane Wives - Ribs.mp3"
-  - "05 - The Crane Wives - Can't Go Back.mp3"
-  - "06 - The Crane Wives - Curses.mp3"
-  - "07 - The Crane Wives - Turn Out the Lights.mp3"
-  - "08 - The Crane Wives - Pretty Little Things.mp3"
-  - "09 - The Crane Wives - Know How.mp3"
-  - "10 - The Crane Wives - Not the Ghost.mp3"
-  - "11 - The Crane Wives - The Garden.mp3"
 
 lrc:
   expect: true

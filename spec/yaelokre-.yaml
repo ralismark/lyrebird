@@ -1,0 +1,21 @@
+singles: true
+
+album_artist: Yaelokre
+album: ~
+date: ~
+cover: ~
+url: ~
+
+tracks:
+
+- title: Kid & Leveret
+  url: https://www.youtube.com/watch?v=7HUiALJTIgk
+  cover: https://static.wikia.nocookie.net/the-yaelokre/images/1/13/Kidnleveret.jpg/revision/latest?cb=20250601130049
+
+- title: Cole's Response
+  url: https://www.youtube.com/watch?v=2voZJ_6S-CI
+  cover: https://static.wikia.nocookie.net/the-yaelokre/images/8/87/Cole%27s_Response.jpg/revision/latest/scale-to-width-down/1000?cb=20250603220834
+
+- title: To douse a scalded tongue
+  url: https://www.youtube.com/watch?v=anlEi6ap3n0
+  cover: https://static.wikia.nocookie.net/the-yaelokre/images/a/ac/To_Douse_A_Scalded_Tongue.jpg/revision/latest?cb=20250802020028

@@ -19,77 +19,66 @@ tracks:
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:00:44
 - title: I Don't Know
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:14
 - title: The Camera Shop (scene)
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:01:11
 - title: The Camera Shop
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:31
 - title: Starchild
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:02:33
 - title: Subway
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:02:23
 - title: Usher, Part 1
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:04:05
 - title: Soldier & Rose
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:04:49
 - title: Any Kind of Dead Person
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:37
 - title: Intro Side 2
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:00:45
 - title: The Astronomer
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:08
   lrc:
     duration_slop: 10
 - title: Family Meeting
@@ -98,35 +87,30 @@ tracks:
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:01
 - title: Four Friends
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:05:08
 - title: Fathers & Sons
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:02:24
 - title: Usher, Part 2
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:02:46
 - title: The Telescope
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:04:30
   lrc:
     duration_slop: 10
 - title: Tango Dancer (scene)
@@ -135,35 +119,30 @@ tracks:
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:01:23
 - title: Tango Dancer
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:05:03
 - title: Monk
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:26
 - title: Lights Out
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:01:48
 - title: The Photograph
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:04:28
   lrc:
     duration_slop: 10
 - title: Bad Men
@@ -172,21 +151,18 @@ tracks:
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:48
 - title: Usher, Part 3
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:07:06
 - title: Prayer
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:01:50
   lrc:
     duration_slop: 10
 - title: Hero
@@ -195,20 +171,17 @@ tracks:
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:06:46
 - title: Midnight
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:03:19
 - title: The Wind & Rain
   artists:
   - Dave Malloy
   - Brent Arnold
   - Brittain Ashford
   - Gelsey Bell
-  expect_duration: 0:08:15
   lrc:
     duration_slop: 500

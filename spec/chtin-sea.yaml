@@ -1,15 +1,4 @@
 url: "https://music.youtube.com/playlist?list=OLAK5uy_krtTpKyRf_ehfpHYpcQtAVkCDWv1fABJE"
-expect_files:
-  - "01 - Water Prelude.mp3"
-  - "02 - Tin： Haktan Gelen Şerbeti - ＂The Drink from God＂.mp3"
-  - "03 - Tin： Temen Oblak - ＂Dark Clouds＂.mp3"
-  - "04 - Christopher Tin - Iza Ngomso ＂Come Tomorrow＂ (Visualizer).mp3"
-  - "05 - Tin： Tsas Narand Uyarna - ＂The Heart of Snow＂.mp3"
-  - "06 - Tin： Passou O Verão - ＂Summer Has Gone＂.mp3"
-  - "07 - Tin： Devipravaha - ＂Goddess River＂.mp3"
-  - "08 - Tin： Seirenes - ＂Sirens＂.mp3"
-  - "09 - Tin： Haf Gengr Hriđum - ＂The Storm-Driven Sea＂.mp3"
-  - "10 - Tin： Waloyo Yamoni - ＂We Overcome the Wind＂.mp3"
 
 lrc:
   expect: true

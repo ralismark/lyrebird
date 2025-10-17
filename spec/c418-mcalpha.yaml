@@ -1,30 +1,5 @@
 # fetching info
 url: "https://c418.bandcamp.com/album/minecraft-volume-alpha"
-expect_files:
-  - "01 - C418 - Key.mp3"
-  - "02 - C418 - Door.mp3"
-  - "03 - C418 - Subwoofer Lullaby.mp3"
-  - "04 - C418 - Death.mp3"
-  - "05 - C418 - Living Mice.mp3"
-  - "06 - C418 - Moog City.mp3"
-  - "07 - C418 - Haggstrom.mp3"
-  - "08 - C418 - Minecraft.mp3"
-  - "09 - C418 - Oxygène.mp3"
-  - "10 - C418 - Équinoxe.mp3"
-  - "11 - C418 - Mice on Venus.mp3"
-  - "12 - C418 - Dry Hands.mp3"
-  - "13 - C418 - Wet Hands.mp3"
-  - "14 - C418 - Clark.mp3"
-  - "15 - C418 - Chris.mp3"
-  - "16 - C418 - Thirteen.mp3"
-  - "17 - C418 - Excuse.mp3"
-  - "18 - C418 - Sweden.mp3"
-  - "19 - C418 - Cat.mp3"
-  - "20 - C418 - Dog.mp3"
-  - "21 - C418 - Danny.mp3"
-  - "22 - C418 - Beginning.mp3"
-  - "23 - C418 - Droopy likes ricochet.mp3"
-  - "24 - C418 - Droopy likes your face.mp3"
 
 lrc:
   expect: false

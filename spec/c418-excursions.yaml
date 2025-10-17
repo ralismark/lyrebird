@@ -12,37 +12,21 @@ cover: "https://f4.bcbits.com/img/a0401863863_10.jpg"
 
 tracks:
 - title: Excursions
-  expect_duration: 0:05:47
 - title: Cold Summer
-  expect_duration: 0:08:10
 - title: TXL
-  expect_duration: 0:02:18
 - title: Tingle
   artists:
     - C418
     - Kuabee
-  expect_duration: 0:06:40
 - title: Beton
-  expect_duration: 0:07:48
 - title: AMS
-  expect_duration: 0:02:38
 - title: Thunderbird
-  expect_duration: 0:13:27
 - title: Aviva
-  expect_duration: 0:03:17
 - title: Figure 8
-  expect_duration: 0:08:57
 - title: Fake Triplets
-  expect_duration: 0:08:02
 - title: Nest
-  expect_duration: 0:08:22
 - title: Home
-  expect_duration: 0:03:44
 - title: ATX
-  expect_duration: 0:03:31
 - title: Leak
-  expect_duration: 0:07:50
 - title: The President is Dead
-  expect_duration: 0:07:48
 - title: Hope
-  expect_duration: 0:03:22

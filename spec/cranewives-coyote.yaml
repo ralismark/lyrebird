@@ -1,19 +1,5 @@
 # fetching info
 url: "https://thecranewives.bandcamp.com/album/coyote-stories"
-expect_files:
-  - "01 - The Crane Wives - Keep You Safe.mp3"
-  - "02 - The Crane Wives - The Moon Will Sing.mp3"
-  - "03 - The Crane Wives - Allies or Enemies.mp3"
-  - "04 - The Crane Wives - Unraveling.mp3"
-  - "05 - The Crane Wives - Hard Sell.mp3"
-  - "06 - The Crane Wives - Rockslide.mp3"
-  - "07 - The Crane Wives - Metaphor.mp3"
-  - "08 - The Crane Wives - The Hand That Feeds.mp3"
-  - "09 - The Crane Wives - Little Soldiers.mp3"
-  - "10 - The Crane Wives - Sleeping Giants.mp3"
-  - "11 - The Crane Wives - Of Everlong.mp3"
-  - "12 - The Crane Wives - Never Love an Anchor.mp3"
-  - "13 - The Crane Wives - New Discovery.mp3"
 
 lrc:
   expect: true
