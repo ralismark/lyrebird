@@ -106,12 +106,15 @@ class Lrc(pydantic.BaseModel):
         if self.try_exact:
             r = HTTP.get(
                 f"{LRCLIB_API_BASE}/get",
-                params={
-                    "track_name": self.track,
-                    "artist_name": self.artist,
-                    "album_name": self.album,
-                    "duration": round(self.duration),
-                },
+                params=t.cast(
+                    t.Any,
+                    {
+                        "track_name": self.track,
+                        "artist_name": self.artist,
+                        "album_name": self.album,
+                        "duration": round(self.duration),
+                    },
+                ),
             )
             if r.status_code != 404:
                 r.raise_for_status()

@@ -1,0 +1,90 @@
+# fetching info
+url: "https://tobyfox.bandcamp.com/album/undertale-soundtrack"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "UNDERTALE Soundtrack"
+album_artist: "Toby Fox"
+date: 2015-09-15
+cover: "https://f4.bcbits.com/img/a2854475053_10.jpg"
+
+tracks:
+- title: Once Upon a Time
+- title: Start Menu
+- title: Your Best Friend
+- title: Fallen Down
+- title: Ruins
+- title: Uwa!! So Temperate♫
+- title: Anticipation
+- title: Unnecessary Tension
+- title: Enemy Approaching
+- title: Ghost Fight
+- title: Determination
+- title: Home
+- title: Home (Music Box)
+- title: Heartache
+- title: sans.
+- title: Nyeh Heh Heh!
+- title: Snowy
+- title: Uwa!! So Holiday♫
+- title: Dogbass
+- title: Mysterious Place
+- title: Dogsong
+- title: Snowdin Town
+- title: Shop
+- title: Bonetrousle
+- title: Dating Start!
+- title: Dating Tense!
+- title: Dating Fight!
+- title: Premonition
+- title: Danger Mystery
+- title: Undyne
+- title: Waterfall
+- title: Run!
+- title: Quiet Water
+- title: Memory
+- title: Bird That Carries You Over A Disproportionately Small Gap
+- title: Dummy!
+- title: Pathetic House
+- title: Spooktune
+- title: Spookwave
+- title: Ghouliday
+- title: Chill
+- title: Thundersnail
+- title: Temmie Village
+- title: Tem Shop
+- title: NGAHHH!!
+- title: Spear of Justice
+- title: Ooo
+- title: Alphys
+- title: It's Showtime!
+- title: Metal Crusher
+- title: Another Medium
+- title: Uwa!! So HEATS!!♫
+- title: Stronger Monsters
+- title: Hotel
+- title: Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything
+- title: Confession
+- title: Live Report
+- title: Death Report
+- title: Spider Dance
+- title: Wrong Enemy !?
+- title: Oh! One True Love
+- title: Oh! Dungeon
+- title: It's Raining Somewhere Else
+- title: CORE Approach
+- title: CORE
+- title: Last Episode!
+- title: Oh My...
+- title: Death by Glamour
+- title: For the Fans
+- title: Long Elevator
+- title: Undertale
+- title: Song That Might Play When You Fight Sans
+- title: The Choice
+- title: Small Shock
+- title: Barrier
+- title: Bergentrückung
+- title: ASGORE

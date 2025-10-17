@@ -1,0 +1,36 @@
+singles: true
+album: ~
+date: ~
+cover: ~
+url: ~
+
+album_artist: Various Artists
+
+tracks:
+
+- title: Bad Apple
+  artists: [Patricia Taxxon]
+  url: https://patriciataxxon.bandcamp.com/track/bad-apple
+  cover: https://f4.bcbits.com/img/a3081595348_10.jpg
+
+- title: Stickerbush Symphony
+  artists: [David Wise, Jammin' Sam Miller]
+  url: https://www.youtube.com/watch?v=lndBgOrTWxo
+  cover: https://mario.wiki.gallery/images/thumb/7/76/NM_DKC2_Stickerbush_Symphony_Bramble_Blast.jpg/1600px-NM_DKC2_Stickerbush_Symphony_Bramble_Blast.jpg
+
+- title: "MilkyWay: Explore [Orchestral Remix]"
+  artists: [Laura Platt]
+  url: https://www.youtube.com/watch?v=tK7Aif72BoA
+  cover: https://i.scdn.co/image/ab67616d00001e022a0e75398c9b50047f4a0e16
+
+# The Beginner's Guide
+
+- title: Va (Extended)
+  artists: [Ryan Roth]
+  url: https://www.youtube.com/watch?v=eRFj6IS4HqM
+  cover: https://f4.bcbits.com/img/a0739110070_10.jpg
+
+- title: Turn Back
+  artists: [Ryan Roth]
+  url: https://dualryan.bandcamp.com/track/turn-back
+  cover: https://f4.bcbits.com/img/a0739110070_10.jpg
