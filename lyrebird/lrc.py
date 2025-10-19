@@ -58,6 +58,8 @@ class Lrc(pydantic.BaseModel):
 
     duration_slop: float = 2.5  # how much can duration differ before we reject it
 
+    from_text: str | None = None  # the actual lyrics themselves
+
     # Postprocessing
     offset: dt.timedelta | None = None
     start: dt.timedelta | None = None
@@ -91,6 +93,31 @@ class Lrc(pydantic.BaseModel):
         fields = {k: getattr(self, k) for k in self.model_fields_set}
         fields |= {k: getattr(other, k) for k in other.model_fields_set}
         return type(self)(**fields)
+
+    def _load_local(self) -> LrclibResult | None:
+        """
+        Try to load .lrc from inline
+        """
+        if self.from_text:
+            _, last = self.from_text.strip().rsplit("\n", 1)
+            m = RE_LRC.fullmatch(last)
+            assert m
+            mm, ss, xx, line = m.groups()
+            assert not line.strip()
+
+            return LrclibResult(
+                id=0,
+                trackName=self.track,
+                artistName=self.artist,
+                albumName=self.album,
+                duration=int(mm) * 60 + int(ss) + int(xx) / 100,
+                instrumental=False,
+                plainLyrics=None,
+                syncedLyrics=self.from_text,
+                source="from_text",
+            )
+
+        return None
 
     def _fetch(self) -> LrclibResult | None:
         """
@@ -190,7 +217,7 @@ class Lrc(pydantic.BaseModel):
 
         print("  lrc:")
 
-        result = self._fetch()
+        result = self._load_local() or self._fetch()
         if not result or not result.syncedLyrics:
             assert not self.expect, f"Expected lyrics but did not find ({result=})"
             print("    expect: false # did not find")
