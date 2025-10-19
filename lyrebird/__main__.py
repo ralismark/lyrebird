@@ -38,7 +38,7 @@ async def process_album(
         if album.singles:
             path = outdir / f"{track.title}.mp3"
         else:
-            path = outdir / f"{track.title}.mp3"
+            path = outdir / f"{i:02} - {track.title}.mp3"
         console.print(f"===== {path.name}", style="bold yellow")
 
         try:
