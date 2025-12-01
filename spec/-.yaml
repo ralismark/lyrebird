@@ -28,6 +28,11 @@ tracks:
   url: https://conlangcritic.bandcamp.com/track/kulupu-jan-tenpo
   cover: https://f4.bcbits.com/img/a1932926099_10.jpg
 
+- title: "Something Went Terribly Wrong"
+  artists: [Meh]
+  url: "https://www.youtube.com/watch?v=t3otBjVZzT0"
+  cover: ~
+
 # The Beginner's Guide
 
 - title: Va (Extended)

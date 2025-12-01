@@ -62,13 +62,14 @@ def _generate_tags(
 
     # cover
     cover_url = track.cover or album.cover
-    cover_mime, cover_data = fetch_cover(cover_url)
-    yield mutagen.id3.APIC(
-        mime=cover_mime,
-        type=mutagen.id3.PictureType.COVER_FRONT,
-        desc=cover_url,
-        data=cover_data,
-    )
+    if cover_url:
+        cover_mime, cover_data = fetch_cover(cover_url)
+        yield mutagen.id3.APIC(
+            mime=cover_mime,
+            type=mutagen.id3.PictureType.COVER_FRONT,
+            desc=cover_url,
+            data=cover_data,
+        )
 
 
 def tag(
