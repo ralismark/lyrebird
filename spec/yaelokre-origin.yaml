@@ -1,14 +1,14 @@
 # fetching info
-url: "https://yaelokre.bandcamp.com/album/songs-of-origin"
+url: "https://soundcloud.com/yaelokre/sets/origins-161968575"
 
 lrc:
   expect: true
 
 # common metadata
-album: "Songs of Origin"
+album: "Origins"
 album_artist: "Yaelokre"
-date: 2024-09-26
-cover: "https://f4.bcbits.com/img/a1300356600_10.jpg"
+date: 2025-10-25
+cover: "https://i1.sndcdn.com/artworks-d7fbcb26-1b50-4fea-8eaa-e70e8e007b06-0-t1080x1080.jpg"
 
 tracks:
 - title: My farewells to the fields
@@ -75,15 +75,104 @@ tracks:
       [02:05.18] 🐐They've yet to perform
       [02:08.88] 🐐I leave the house and the Baroness
       [02:13.66] 🐐Buried in before
-      [02:18.25] 🐐Finndu mig í framtíðinni (tr: Find me in the future)
-      [02:20.30] 🫎🪵Malayang maya, malayo-layo (tr: free sparrow, far away)
-      [02:24.51] 🫎🪵Malayang maya, malayo-layo (tr: free sparrow, far away)
-      [02:28.85] 🫎🪵Malayang maya, malayo-layo (tr: free sparrow, far away)
-      [02:32.93] 🫎🪵Malayang maya, malayo-layo (tr: free sparrow, far away)
-      [02:37.09] 🐐🐰Rödd eins og bjalla (tr: Voice like a bell)
-      [02:43.35] 🐐🐰Heldur okkur öruggum (tr: Keeps us safe)
-      [02:51.88] 🐐🐰Frá framtíðinni (tr: From the future)
-      [02:54.45] 🫎🪵(Malayang maya, malayo-layo) (tr: free sparrow, far away)
-      [02:58.59] 🫎🪵(Malayang maya, malayo-layo) (tr: free sparrow, far away)
-      [03:02.55] 🫎🪵(Malayang maya, malayo-layo) (tr: free sparrow, far away)
+      [02:18.25] 🐐Finndu mig í framtíðinni --- Find me in the future
+      [02:20.30] 🫎🪵Malayang maya, malayo-layo --- Free sparrow, far away
+      [02:24.51] 🫎🪵Malayang maya, malayo-layo --- Free sparrow, far away
+      [02:28.85] 🫎🪵Malayang maya, malayo-layo --- Free sparrow, far away
+      [02:32.93] 🫎🪵Malayang maya, malayo-layo --- Free sparrow, far away
+      [02:37.09] 🐐🐰Rödd eins og bjalla --- Voice like a bell
+      [02:43.35] 🐐🐰Heldur okkur öruggum --- Keeps us safe
+      [02:51.88] 🐐🐰Frá framtíðinni --- From the future
+      [02:54.45] 🫎🪵(Malayang maya, malayo-layo) --- Free sparrow, far away
+      [02:58.59] 🫎🪵(Malayang maya, malayo-layo) --- Free sparrow, far away
+      [03:02.55] 🫎🪵(Malayang maya, malayo-layo) --- Free sparrow, far away
       [03:14.92]
+
+
+- title: To douse a scalded tongue
+  lrc:
+    from_text: |
+      [00:15.40] 🫎Must I look below mildewy timbers?
+      [00:31.15] 🫎Staves my feet are perched on
+      [00:45.87] 🫎Able to bear my weight with no protest
+      [00:53.85] 🫎And yet I am to tumble down
+      [01:02.69] 🫎(Dare me to flood what is already drowning)
+      [01:05.37] 🫎(Shoot him whose heart you can already see)
+      [01:07.70] 🫎(She who refuses to peek through the curtains)
+      [01:10.01] 🫎(The children are angry as they should be)
+      [01:12.58] 🫎Down to where I can hear them
+      [01:17.81] 🫎"Glory thy stillness"
+      [01:24.73] 🫎Was a verse mistaken
+      [01:33.26] 🫎By disfavored ones like you
+      [01:41.90] 🫎Oh-ha-oh-ha-ha
+      [01:45.33] 🫎Oh-ha-oh-ha-ha
+      [01:48.82] 🫎To douse a scalded tongue
+      [01:52.46] 🫎Incanted herd and flock!
+      [01:56.33] 🫎In places the lark haven't carolled heretofore
+      [02:04.41] 🫎From faults, favors, failures and the truth!
+      [02:08.11] 🫎From faults, favors, failures and the truth!
+      [02:12.08] 🫎From faults, favors, failures and the truth!
+      [02:15.86] 🫎That love alone-
+      [02:17.07] 🫎Love alone isn't enough!
+      [02:19.95] 🫎From faults, favors, failures and the truth!
+      [02:23.78] 🫎From faults, favors, failures and the truth!
+      [02:27.66] 🫎From faults, favors, failures and the truth!
+      [02:31.42] 🫎That love alone-
+      [02:32.77] 🫎Love alone isn't enough!
+      [02:43.00]
+
+- title: Kamahalan
+  lrc:
+    from_text: |
+      [00:06.87] 🪵Hoy! --- Hey!
+      [00:07.74] 🪵Bata! --- Kid!
+      [00:08.64] 🪵🫎🐰🐐Kamahalan, kamahalan --- Majesty, majesty
+      [00:11.75] 🪵🫎🐰🐐Kamahalan, kamahalan --- Majesty, majesty
+      [00:15.17] 🪵🫎🐰🐐Kamahalan, kamahalan --- Majesty, majesty
+      [00:18.67] 🪵🫎🐰🐐Kamahalan, kamahalan --- Majesty, majesty
+      [00:21.68] 🪵Kagalakang kumikislap --- A joy that twinkles
+      [00:24.85] 🪵Ang tawanang dinig habang --- And a laughter heard
+      [00:28.39] 🪵Ang kasinungalingan ay dumurungaw --- While lies lurk
+      [00:32.16] 🪵Sa paglalathala ng katotohanan --- Over truths being authored.
+      [00:35.49] 🪵Ano ang sabi nila? --- What do they say?
+      [00:36.92] 🪵Ito ang sabi nila --- This is what they say;
+      [00:38.59] 🪵Kung kani-kanino, kung saan-saan --- To whomever, to wherever
+      [00:42.14] 🪵Nalang nakatingin, 'di maririnig --- Is being given attention to without heeding that
+      [00:45.44] 🪵Ikaw ang kamahalan --- You are the majesty
+      [00:47.59] 🪵🫎🐰🐐Kamahalan! --- Majesty!
+      [00:49.54] 🐐Bata, bata, 'wag ka matakot --- Child, child, don’t be scared
+      [00:53.00] 🐰Isigaw at sumayaw ika'y umikot --- Shout and dance, go twirl around
+      [00:56.50] 🫎Maghintay o mangalok o makalimot --- Await or beckon or forget
+      [00:59.38] 🪵🫎🐰🐐Ikaw ang kamahalan --- You are the majesty
+      [01:01.32] 🪵🫎🐰🐐Kamahalan --- Majesty
+      [01:03.13] 🪵🫎🐰🐐Kamahalan --- Majesty
+      [01:04.68] 🪵🫎🐰🐐Kamahalan! --- Majesty!
+      [01:06.36] 🪵Kagalakang kumikislap --- A joy that twinkles
+      [01:09.51] 🪵Ang tawanang dinig habang --- And a laughter heard
+      [01:12.94] 🪵Ang kasinungalingan ay dumurungaw --- While lies lurk
+      [01:16.30] 🪵Sa paglalathala ng katotohanan --- Over truths being authored.
+      [01:20.16] 🪵Ano ang sabi nila? --- What did they say?
+      [01:21.46] 🪵Ito ang sabi nila --- This is what they said;
+      [01:23.20] 🪵Kung kani-kanino, kung saan-saan --- To whomever, to wherever
+      [01:26.72] 🪵Nalang nakatingin, 'di maririnig --- Is being given attention to without heeding that
+      [01:30.06] 🪵Ikaw ang kamahalan --- You are the majesty
+      [01:32.03] 🪵🫎🐰🐐Kamahalan! --- Majesty!
+      [01:34.08] 🪵Bata, bata, 'wag ka matakot --- Child, child, don’t be scared
+      [01:37.55] 🪵Isigaw at sumayaw ika'y umikot --- Shout and dance, go twirl around
+      [01:40.92] 🪵Maghintay o mangalok o makalimot --- Await or beckon or forget
+      [01:43.81] 🪵Ikaw ang kamahalan --- You are the majesty
+      [01:45.69] 🪵🫎🐰🐐Kamahalan --- Majesty
+      [01:47.56] 🪵Bata, bata, 'wag ka matakot --- Child, child, don’t be scared
+      [01:51.21] 🪵Isigaw at sumayaw ika'y umikot --- Shout and dance, go twirl around
+      [01:54.68] 🪵Maghintay o mangalok o makalimot --- Await or beckon or forget
+      [01:57.83] 🪵Ikaw ang kamahalan --- You are the majesty
+      [01:59.57] 🪵🫎🐰🐐Kamahalan --- Majesty
+      [02:01.57] 🪵Bata, bata, 'wag ka matakot --- Child, child, don’t be scared
+      [02:05.00] 🪵Isigaw at sumayaw ika'y umikot --- Shout and dance, go twirl around
+      [02:08.21] 🪵Maghintay o mangalok o makalimot --- Await or beckon or forget
+      [02:11.51] 🪵Ikaw ang kamahalan --- You are the majesty
+      [02:13.20] 🪵🫎🐰🐐Kamahalan --- Majesty
+      [02:15.15] 🪵🫎🐰🐐Kamahalan! Kamahalan! --- Majesty! Majesty!
+      [02:18.40] 🪵🫎🐰🐐Kamahalan! Kamahalan! --- Majesty! Majesty!
+      [02:21.85] 🪵Kamahalan! Kamahalan --- Majesty! Majesty!
+      [02:28.00]

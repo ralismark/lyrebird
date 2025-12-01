@@ -1,0 +1,47 @@
+url: "https://music.youtube.com/playlist?list=OLAK5uy_n-FD9J8w8M7JWNGsJOkj1xkmnmn-SF83I"
+
+lrc:
+  expect: false
+
+album: "Minecraft: Tricky Trials"
+album_artist: "Minecraft"
+date: 2024-04-26
+cover: "https://minecraft.wiki/images/thumb/Tricky_Trials_Original_Game_Soundtrack_cover.png/720px-Tricky_Trials_Original_Game_Soundtrack_cover.png?cce6a"
+
+tracks:
+- title: Featherfall
+  artists:
+  - Aaron Cherof
+- title: Watcher
+  artists:
+  - Aaron Cherof
+- title: Puzzlebox
+  artists:
+  - Aaron Cherof
+- title: komorebi
+  artists:
+  - Kumi Tanioka
+- title: pokopoko
+  artists:
+  - Kumi Tanioka
+- title: yakusoku
+  artists:
+  - Kumi Tanioka
+- title: Deeper
+  artists:
+  - Lena Raine
+- title: Eld Unknown
+  artists:
+  - Lena Raine
+- title: Endless
+  artists:
+  - Lena Raine
+- title: Creator
+  artists:
+  - Lena Raine
+- title: Creator (Music Box Version)
+  artists:
+  - Lena Raine
+- title: Precipice
+  artists:
+  - Aaron Cherof
