@@ -1,0 +1,23 @@
+url: "https://music.youtube.com/playlist?list=OLAK5uy_kvwi78VB5h48Wmt2OCB60IhQsM_se07z0"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "The Light for Days"
+album_artist: "Jacob Collier"
+date: 2025-10-10
+cover: "https://f4.bcbits.com/img/a0165985039_10.jpg"
+
+tracks:
+- title: You Can Close Your Eyes
+- title: Heaven (Butterflies)
+- title: Thom Thumb
+- title: Fairytale Lullaby
+- title: Norwegian Wood
+- title: Keep An Eye On Summer
+- title: I Know (A Little)
+- title: Where Did My Apple Fall
+- title: Sweet Melody
+- title: Icarus
+- title: Something Heavy
