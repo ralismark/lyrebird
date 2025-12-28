@@ -16,6 +16,7 @@ LRCLIB_API_BASE = "https://lrclib.net/api"
 RE_LRC = re.compile(r"\[(\d\d):(\d\d)\.(\d\d)\](.*)")
 
 HTTP = requests.Session()
+HTTP.headers["user-agent"] = "lyrebird/0 (https://github.com/ralismark/lyrebird)"
 
 
 def fmt_timedelta(t: dt.timedelta) -> str:
