@@ -1,0 +1,21 @@
+# fetching info
+url: "https://camiidae.bandcamp.com/album/echoes-of-a-little-natural-journey"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "echoes of a little natural journey"
+album_artist: "camiidae"
+date: 2024-12-28
+cover: "https://f4.bcbits.com/img/a1814668990_10.jpg"
+
+tracks:
+- title: ant
+- title: drizzle
+- title: snail
+- title: dusk
+- title: cricket
+- title: sunrise
+- title: mantis
+- title: "journey's end"

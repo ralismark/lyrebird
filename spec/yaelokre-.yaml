@@ -9,7 +9,7 @@ url: ~
 tracks:
 
 - title: Kid & Leveret
-  url: https://www.youtube.com/watch?v=7HUiALJTIgk
+  url: https://soundcloud.com/yaelokre/kid-leveret
   cover: https://static.wikia.nocookie.net/the-yaelokre/images/1/13/Kidnleveret.jpg/revision/latest?cb=20250601130049
   lrc:
     from_text: |
@@ -87,7 +87,7 @@ tracks:
         [05:13.91]
 
 - title: Cole's Response
-  url: https://www.youtube.com/watch?v=2voZJ_6S-CI
+  url: https://soundcloud.com/yaelokre/coles-response-1
   cover: https://static.wikia.nocookie.net/the-yaelokre/images/8/87/Cole%27s_Response.jpg/revision/latest/scale-to-width-down/1000?cb=20250603220834
   lrc:
     from_text: |
@@ -117,3 +117,7 @@ tracks:
       [01:43.89] 🐰Scatter, scatter they
       [01:50.37] 🐰They do
       [02:08.95]
+
+- title: "And the Hound (Reprise)"
+  url: https://soundcloud.com/yaelokre/and-the-hound-reprise
+  cover: https://i1.sndcdn.com/artworks-41B0QsrKrPPi-0-t500x500.jpg

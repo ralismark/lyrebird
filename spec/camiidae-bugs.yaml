@@ -1,0 +1,22 @@
+# fetching info
+url: "https://camiidae.bandcamp.com/album/music-for-bugs"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "music for bugs"
+album_artist: "camiidae"
+date: 2023-03-19
+cover: "https://f4.bcbits.com/img/a1938586999_10.jpg"
+
+tracks:
+- title: weevil
+- title: butterfly
+- title: treehopper
+- title: moth
+- title: isopod
+- title: bumblebee
+- title: scarab
+- title: spiny spider
+- title: tortoise beetle
