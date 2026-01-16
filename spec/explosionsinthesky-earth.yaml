@@ -1,0 +1,18 @@
+# fetching info
+url: "https://explosionsinthesky.bandcamp.com/album/the-earth-is-not-a-cold-dead-place"
+
+lrc:
+  expect: ~
+
+# common metadata
+album: "The Earth Is Not a Cold Dead Place"
+album_artist: "Explosions in the Sky"
+date: 2003-11-04
+cover: "https://f4.bcbits.com/img/a0014268863_10.jpg"
+
+tracks:
+- title: First Breath After Coma
+- title: The Only Moment We Were Alone
+- title: Six Days At The Bottom Of The Ocean
+- title: Memorial
+- title: Your Hand In Mine
