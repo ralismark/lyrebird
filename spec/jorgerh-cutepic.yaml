@@ -1,0 +1,37 @@
+url: ~
+
+album: "EPIC: Cut Songs"
+album_artist: "Jorge Rivera-Herrans"
+date: 2024-12-25
+cover: "https://i1.sndcdn.com/artworks-yJvQLmg3vxGOvrTJ-CaHyKw-t1080x1080.jpg"
+
+tracks:
+
+# names based on https://epicthemusical.fandom.com/wiki/Deleted_and_Drafts
+
+- title: "Pick Me"
+  url: "https://www.youtube.com/watch?v=5aSYmH6Dvyg"
+
+- title: "Need Her To Be Mine"
+  url: "https://www.youtube.com/watch?v=B0YItGDGW40"
+
+- title: "Ismarus"
+  url: "https://www.youtube.com/watch?v=r6e8Ox3XHXg"
+
+- title: "Your Light"
+  url: "https://www.youtube.com/watch?v=N2Sw6SJ9ags"
+
+- title: "Unhand Him"
+  url: "https://www.youtube.com/watch?v=FAkN3LMIb6w"
+
+- title: 'Comfort Zone ("Perimedes")'
+  url: "https://www.youtube.com/watch?v=A7THmkBqXpg"
+
+- title: "In Vain"
+  url: "https://www.youtube.com/watch?v=xpvUZbL8WRs"
+
+- title: "Aeolia"
+  url: "https://www.youtube.com/watch?v=E9HVgvOYWMk"
+
+- title: 'Wisdom ("Oceans In My Eyes")'
+  url: "https://www.youtube.com/watch?v=CTpeSwX2JSs"
