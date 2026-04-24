@@ -1,0 +1,18 @@
+url: "https://soundcloud.com/rabbitology/sets/living-ghost-still-rising"
+
+album: "Living Ghost: Still Rising"
+album_artist: "Rabbitology"
+date: 2025-06-27
+cover: https://i1.sndcdn.com/artworks-jtZguTXakkM2-0-t1080x1080.png
+
+lrc:
+  expect: true
+
+tracks:
+- title: "Stranger"
+- title: "Wolf House"
+- title: "Joanie"
+- title: "Preybirds (The Watched Version)"
+  artists: [Rabbitology, Sparkbird]
+  lrc:
+    id: 20334509

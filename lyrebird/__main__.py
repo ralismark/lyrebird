@@ -16,6 +16,10 @@ import asyncio
 console = rich.console.Console()
 
 
+def sanitise_for_path(s: str):
+    return s.replace("/", "_")
+
+
 async def process_album(
     album: Album,
     outdir: Path,
@@ -34,11 +38,9 @@ async def process_album(
     for i, (fetched_path, track) in enumerate(
         zip(fetched_files, album.tracks), start=1
     ):
-        path: Path
-        if album.singles:
-            path = outdir / f"{track.title}.mp3"
-        else:
-            path = outdir / f"{i:02} - {track.title}.mp3"
+        path: Path = outdir / sanitise_for_path(
+            f"{track.title}.mp3" if album.singles else f"{i:02} - {track.title}.mp3"
+        )
         console.print(f"===== {path.name}", style="bold yellow")
 
         try:
@@ -88,11 +90,11 @@ async def main() -> None:
         return
 
     for spec, album in albums:
-        albumdir: Path
-        if album.singles:
-            albumdir = args.out / f"{album.album_artist}"
-        else:
-            albumdir = args.out / f"{album.album_artist} - {album.album}"
+        albumdir: Path = args.out / sanitise_for_path(
+            f"{album.album_artist}"
+            if album.singles
+            else f"{album.album_artist} - {album.album}"
+        )
 
         if args.ifne and albumdir.exists():
             continue

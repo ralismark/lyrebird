@@ -1,0 +1,16 @@
+singles: true
+
+album_artist: Louie Zong
+album: ~
+date: ~
+cover: ~
+url: ~
+
+tracks:
+
+- title: Breezy Slide
+  url: https://louiezong.bandcamp.com/track/breezy-slide
+  cover: https://f4.bcbits.com/img/a1100918505_10.jpg
+  artists:
+    - Louie Zong
+    - Brian David Gilbert
