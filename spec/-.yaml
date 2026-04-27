@@ -38,6 +38,26 @@ tracks:
   url: https://fexband.bandcamp.com/track/subways-of-your-mind
   cover: https://f4.bcbits.com/img/a1472024769_10.jpg
 
+- title: Running Up That Hill
+  artists: [Kate Bush]
+  url: https://www.youtube.com/watch?v=wp43OdtAAkM
+
+- title: "I'm Still Standing"
+  artists: [Elton John]
+  url: https://www.youtube.com/watch?v=ZHwVBirqD2s
+
+- title: People Like Us
+  artists: [Kelly Clarkson]
+  url: https://www.youtube.com/watch?v=yWbMz_aBlMU
+
+- title: "I'm Just Ken"
+  artists: [Ryan Gosling]
+  url: https://www.youtube.com/watch?v=wwux9KiBMjE
+
+- title: "Never Gonna Give You Up"
+  artists: [Rick Astley]
+  url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
 # The Beginner's Guide
 
 - title: Va (Extended)
