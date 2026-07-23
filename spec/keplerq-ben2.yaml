@@ -1,0 +1,25 @@
+url: https://www.youtube.com/playlist?list=OLAK5uy_mn3eBJYDso4Hth49IZySEWnEv2itGSYmE
+
+lrc:
+  expect: false
+
+album: "Ben Johnston: String Quartets Nos. 1, 5, & 10"
+album_artist: "Kepler Quartet"
+date: 2011-01-01
+cover: https://www.newworldrecords.org/cdn/shop/products/image_a07a58e2-9736-44d6-8fe5-f433f3bd8fe2_1080x.jpg?v=1582678950
+
+tracks:
+- title: 'String Quartet No. 5'
+- title: 'String Quartet No. 10 - Brisk, Intent'
+- title: 'String Quartet No. 10 - Solemn'
+- title: 'String Quartet No. 10 - Deliberate But As Fast As Possible'
+- title: 'String Quartet No. 10 - Sprightly, Not Too Fast'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 1: Clear And Concentrated'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 2: Sharp'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 3: Still, Spacious'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 4: Impetuous'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 5: Fluid, Pulsating'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 6: Assertive'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 7: Rather Ominous'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 8: Nervous, Driving'
+- title: 'String Quartet No. 1, "Nine Variations" - Variation 9: Minute, Atmospheric'

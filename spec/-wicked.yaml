@@ -1,0 +1,94 @@
+url: "https://www.youtube.com/playlist?list=OLAK5uy_nL7zNKG0KWDbTKmwXCwIYYEBLECaDgKeM"
+
+album: "Wicked (Original Broadway Cast Recording)"
+album_artist: Stephen Schwartz
+date: 2003-11-10
+cover: "https://t2.genius.com/unsafe/600x600/https%3A%2F%2Fimages.genius.com%2Fb1eccd753db23dc20f765ad9fd3ef984.1000x1000x1.png"
+
+lrc:
+  expect: true
+
+tracks:
+- title: "No One Mourns the Wicked"
+  artists:
+  - Kristin Chenoweth
+  - Sean McCourt
+  - Cristy Candler
+  - Jan Neuberger
+  - Wicked Original Broadway Cast
+- title: "Dear Old Shiz"
+  artists:
+  - Kristin Chenoweth
+  - Wicked Original Broadway Cast
+- title: "The Wizard and I"
+  artists:
+  - Idina Menzel
+  - Carole Shelley
+- title: "What Is This Feeling?"
+  artists:
+  - Kristin Chenoweth
+  - Idina Menzel
+  - Wicked Original Broadway Cast
+- title: "Something Bad"
+  artists:
+  - William Youmans
+  - Idina Menzel
+- title: "Dancing Through Life"
+  artists:
+  - Norbert Leo Butz
+  - Kristin Chenoweth
+  - Christopher Fitzgerald
+  - Michelle Federer
+  - Idina Menzel
+  - Wicked Original Broadway Cast
+- title: "Popular"
+  artists:
+  - Kristin Chenoweth
+- title: "I'm Not That Girl"
+  artists:
+  - Idina Menzel
+- title: "One Short Day"
+  artists:
+  - Kristin Chenoweth
+  - Idina Menzel
+  - Wicked Original Broadway Cast
+- title: "A Sentimental Man"
+  artists:
+  - Joel Grey
+- title: "Defying Gravity"
+  artists:
+  - Idina Menzel
+  - Kristin Chenoweth
+  - Wicked Original Broadway Cast
+- title: "Thank Goodness"
+  artists:
+  - Kristin Chenoweth
+  - Carole Shelley
+  - Wicked Original Broadway Cast
+- title: "Wonderful"
+  artists:
+  - Joel Grey
+  - Idina Menzel
+- title: "I'm Not That Girl (Reprise)"
+  artists:
+  - Kristin Chenoweth
+- title: "As Long as You're Mine"
+  artists:
+  - Idina Menzel
+  - Norbert Leo Butz
+- title: "No Good Deed"
+  artists:
+  - Idina Menzel
+- title: "March of the Witch Hunters"
+  artists:
+  - Christopher Fitzgerald
+  - Wicked Original Broadway Cast
+- title: "For Good"
+  artists:
+  - Kristin Chenoweth
+  - Idina Menzel
+- title: "Finale"
+  artists:
+  - Kristin Chenoweth
+  - Idina Menzel
+  - Wicked Original Broadway Cast

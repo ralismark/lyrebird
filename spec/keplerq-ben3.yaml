@@ -1,0 +1,20 @@
+url: https://www.youtube.com/playlist?list=OLAK5uy_na114ETTKDkIeQR5YCBYv51bj--tmG3VY
+
+lrc:
+  expect: false
+
+album: "Ben Johnston: String Quartets Nos. 6, 7, & 8"
+album_artist: "Kepler Quartet"
+date: 2016-04-15
+cover: https://www.newworldrecords.org/cdn/shop/products/80730_1080x.jpg?v=1761869833
+
+tracks:
+- title: 'String Quartet No. 6 - Legato Espressivo'
+- title: 'String Quartet No. 7 - Prelude--Scurrying, Forceful, Intense'
+- title: 'String Quartet No. 7 - Palindromes--Eerie'
+- title: 'String Quartet No. 7 - Variations--With Solemnity'
+- title: 'String Quartet No. 8 - Vigorous, Aggressive'
+- title: 'String Quartet No. 8 - Lazy, Rocking'
+- title: 'String Quartet No. 8 - Scherzo--Fast, Skimming; Trio--Light'
+- title: 'String Quartet No. 8 - Extremely Light And Rhythmic'
+- title: 'Quietness (in memory of Salvatore Martirano)'
