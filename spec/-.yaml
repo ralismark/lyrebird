@@ -31,32 +31,11 @@ tracks:
 - title: "Something Went Terribly Wrong"
   artists: [Meh]
   url: "https://www.youtube.com/watch?v=t3otBjVZzT0"
-  cover: ~
 
 - title: Subways of Your Mind
   artists: [FEX]
   url: https://fexband.bandcamp.com/track/subways-of-your-mind
   cover: https://f4.bcbits.com/img/a1472024769_10.jpg
-
-- title: Running Up That Hill
-  artists: [Kate Bush]
-  url: https://www.youtube.com/watch?v=wp43OdtAAkM
-
-- title: "I'm Still Standing"
-  artists: [Elton John]
-  url: https://www.youtube.com/watch?v=ZHwVBirqD2s
-
-- title: People Like Us
-  artists: [Kelly Clarkson]
-  url: https://www.youtube.com/watch?v=yWbMz_aBlMU
-
-- title: "I'm Just Ken"
-  artists: [Ryan Gosling]
-  url: https://www.youtube.com/watch?v=wwux9KiBMjE
-
-- title: "Never Gonna Give You Up"
-  artists: [Rick Astley]
-  url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # The Beginner's Guide
 
@@ -69,3 +48,114 @@ tracks:
   artists: [Ryan Roth]
   url: https://dualryan.bandcamp.com/track/turn-back
   cover: https://f4.bcbits.com/img/a0739110070_10.jpg
+
+# Mainstream
+
+- title: Running Up That Hill
+  artists: [Kate Bush]
+  url: https://www.youtube.com/watch?v=wp43OdtAAkM
+  lrc:
+    expect: true
+
+- title: "I'm Still Standing"
+  artists: [Elton John]
+  url: https://www.youtube.com/watch?v=ZHwVBirqD2s
+  lrc:
+    expect: true
+
+- title: People Like Us
+  artists: [Kelly Clarkson]
+  url: https://www.youtube.com/watch?v=yWbMz_aBlMU
+  lrc:
+    expect: true
+
+- title: "I'm Just Ken"
+  artists: [Ryan Gosling]
+  url: https://www.youtube.com/watch?v=wwux9KiBMjE
+  lrc:
+    expect: true
+
+- title: Never Gonna Give You Up
+  artists: [Rick Astley]
+  url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  lrc:
+    expect: true
+
+- title: Viva La Vida
+  artists: [Coldplay]
+  url: https://www.youtube.com/watch?v=dvgZkm1xWPE
+  lrc:
+    expect: true
+
+- title: Paradise
+  artists: [Coldplay]
+  url: https://www.youtube.com/watch?v=1G4isv_Fylg
+  lrc:
+    expect: true
+
+- title: Welcome To The Black Parade
+  artists: [My Chemical Romance]
+  url: https://www.youtube.com/watch?v=RRKJiM9Njr8
+  lrc:
+    expect: true
+
+- title: Wonderwall
+  artists: [Oasis]
+  url: https://www.youtube.com/watch?v=bx1Bh8ZvH84
+  lrc:
+    expect: true
+
+- title: I Will Survive
+  artists: [Gloria Gaynor]
+  url: https://www.youtube.com/watch?v=6dYWe1c3OyU
+  lrc:
+    expect: true
+    duration_slop: 5
+
+- title: Hotel California
+  artists: [Eagles]
+  url: https://www.youtube.com/watch?v=BciS5krYL80
+  lrc:
+    expect: true
+
+- title: Bohemian Rhapsody
+  artists: [Queen]
+  url: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+  lrc:
+    expect: true
+
+- title: "DJ Got Us Fallin' In Love"
+  artists: [Usher]
+  url: https://www.youtube.com/watch?v=C-dvTjK_07c
+  lrc:
+    expect: true
+
+- title: "I'm Gonna Be (500 Miles)"
+  artists: [The Proclaimers]
+  url: https://www.youtube.com/watch?v=tbNlMtqrYS0
+  lrc:
+    expect: true
+
+- title: 500 Miles
+  artists: ["Peter, Paul and Mary"]
+  url: https://www.youtube.com/watch?v=UJmbn1sQw2A
+  lrc:
+    expect: true
+
+- title: Mr. Brightside
+  artists: [The Killers]
+  url: https://www.youtube.com/watch?v=gGdGFtwCNBE
+  lrc:
+    expect: true
+
+- title: Sign of the Times
+  artists: [Harry Styles]
+  url: https://www.youtube.com/watch?v=qN4ooNx77u0
+  lrc:
+    expect: true
+
+- title: Riptide
+  artists: [Vance Joy]
+  url: https://www.youtube.com/watch?v=uJ_1HMAGb4k
+  lrc:
+    expect: true

@@ -9,6 +9,7 @@ import pydantic
 import re
 import requests
 import typing as t
+from requests.adapters import HTTPAdapter, Retry
 
 
 LRCLIB_API_BASE = "https://lrclib.net/api"
@@ -17,6 +18,16 @@ RE_LRC = re.compile(r"\[(\d\d):(\d\d)\.(\d\d)\](.*)")
 
 HTTP = requests.Session()
 HTTP.headers["user-agent"] = "lyrebird/0 (https://github.com/ralismark/lyrebird)"
+HTTP.mount(
+    "https://lrclib.net",
+    HTTPAdapter(
+        max_retries=Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[503],
+        ),
+    ),
+)
 
 
 def fmt_timedelta(t: dt.timedelta) -> str:

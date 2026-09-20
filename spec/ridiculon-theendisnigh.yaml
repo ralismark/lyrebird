@@ -1,0 +1,49 @@
+# fetching info
+url: "https://ridiculon.bandcamp.com/album/the-end-is-nigh-ost"
+
+lrc:
+  expect: false
+
+# common metadata
+album: "The End Is Nigh:  OST"
+album_artist: "Ridiculon"
+date: 2017-07-12
+cover: "https://f4.bcbits.com/img/a3299161969_10.jpg"
+
+tracks:
+- title: "TITLE SCREEN - Gnossienne No. 1 (Satie 1893)"
+- title: "THE END - Danse Macabre (Saint-Saëns 1874)"
+- title: "THE ARID FLATS - New World Symphony (Dvořák 1893)"
+- title: "OVERFLOW - 1812 Overture (Tchaikovsky 1880)"
+- title: "WALL OF SORROW - Hungarian Rhapsody (Liszt 1847)"
+- title: "SS EXODUS - Marche Slave (Tchaikovsky 1876)"
+- title: "RETROGRADE - Hungarian Dance (Brahms 1869)"
+- title: "THE MACHINE - Flight Of The Bumblebee (Rimsky-Korsakov 1899)"
+- title: "THE HOLLOWS - Dante Symphony (Liszt 1857)"
+- title: "GOLGOTHA - Night On Bald Mountain (Mussorgsky 1867)"
+- title: "RUIN - In The Hall Of The Mountain King (Grieg 1875)"
+- title: "ACCEPTANCE - Hungarian Rhapsody (Liszt 1847)"
+- title: "THE FUTURE - Requiem (Verdi 1874)"
+- title: "AS ABOVE - Gymnopédie No.1 (Satie 1888)"
+- title: "SO BELOW - In The Hall Of The Mountain King (Grieg 1875)"
+- title: "MORTAMAN - Retro Danse Macabre (Saint-Saëns 1874)"
+- title: "BLASTER MASSACRE - Retro New World Symphony (Dvořák 1893)"
+- title: "RIVER CITY RANCID - Retro 1812 Overture (Tchaikovsky 1880)"
+- title: "CATASTROVANIA - Retro Dante Symphony (Liszt 1857)"
+- title: "DIG DEAD - Retro Night On Bald Mountain (Mussorgsky 1867)"
+- title: "ASH CLIMBER - Retro Hungarian Rhapsody (Liszt 1847)"
+- title: "FALLEN FANTASY - Retro Marche Slave (Tchaikovsky 1876)"
+- title: "RUBBLE BOBBLE - Retro Hungarian Dance (Brahms 1869)"
+- title: "MORBID GEAR - Retro Flight Of The Bumblebee (Rimsky-Korsakov 1899)"
+- title: "MYSTERY CASTLE - Retro 5th Symphony (Beethoven 1808)"
+- title: "THE TOWER - Retro Requiem (Verdi 1874)"
+- title: "THE END IS NIGH - Retro Turkish March (Mozart 1783)"
+- title: "SCAB OR DIE - Glitch Retro Night On Bald Mountain (Mussorgsky 1867)"
+- title: "TOMBS & TORTURE - Glitch Retro Double Speed New World Symphony (Dvořák 1893)"
+- title: "PUS MAN - Glitch Retro Flight Of The Bumblebee (Rimsky-Korsakov 1899)"
+- title: "GHOSTS N' GRIEVING - Glitch Retro Hall Of The Mountain King (Grieg 1875)"
+- title: "DEAD RACER - Glitch Retro Dante Symphony (Liszt 1857)"
+- title: "SPIKE TALES - Glitch Retro Hungarian Dance (Brahms 1869)"
+- title: "THE END IS NIGHT REVISIT - Glitch Retro Turkish March (Mozart 1783)"
+- title: "CART MENU - Retro Gnossienne No. 1 (Satie 1893)"
+- title: "**BONUS** - Ride Of The Valkyries (Wagner 1856)"
