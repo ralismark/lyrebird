@@ -8,10 +8,11 @@ lrc:
 album: "Origins"
 album_artist: "Yaelokre"
 date: 2025-10-25
-cover: "https://i1.sndcdn.com/artworks-d7fbcb26-1b50-4fea-8eaa-e70e8e007b06-0-t1080x1080.jpg"
+cover: https://i1.sndcdn.com/artworks-875c932e-b634-4d88-8e14-44650d1b7367-0-t500x500.jpg
 
 tracks:
 - title: My farewells to the fields
+  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-09/My%20farewells%20to%20the%20fields%20PNG.jpg
   lrc:
     from_text: |
       [00:03.23] 🐰(Ha-a-a, hmmm, Ha-a-a, hmmm)
@@ -46,6 +47,7 @@ tracks:
       [02:04.86]
 
 - title: Bird cage blue and yellow
+  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-07/Bird%20cage%20blue%20and%20yellow%20TIFF.jpg
   lrc:
     from_text: |
       [00:36.09] 🐐Bird cage blue and yellow
@@ -88,8 +90,8 @@ tracks:
       [03:02.55] 🫎🪵(Malayang maya, malayo-layo) --- Free sparrow, far away
       [03:14.92]
 
-
 - title: To douse a scalded tongue
+  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-09/To%20douse%20a%20scalded%20tongue%20PNG_1.jpg
   lrc:
     from_text: |
       [00:15.40] 🫎Must I look below mildewy timbers?
@@ -122,6 +124,7 @@ tracks:
       [02:43.00]
 
 - title: Kamahalan
+  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-10/Kamahalan%20PNG_0.png
   lrc:
     from_text: |
       [00:06.87] 🪵Hoy! --- Hey!
