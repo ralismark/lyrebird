@@ -17,10 +17,10 @@ if t.TYPE_CHECKING:
 class AlbumMeta(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
-    album: str | None
+    album: str | None = None
     album_artist: str
-    date: dt.date | None
-    cover: str | None
+    date: dt.date | None = None
+    cover: str | None = None
 
     singles: bool = False
 
@@ -29,8 +29,10 @@ class TrackMeta(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
     title: str = pydantic.Field(pattern="[^/]+")
+
     artists: list[str] | None = None
     cover: str | None = None
+    date: dt.date | None = None
 
 
 # TODO this depends too much on the top-level types
@@ -44,6 +46,10 @@ def _generate_tags(
     # track tags
     yield mutagen.id3.TIT2(encoding=utf8, text=track.title)
     yield mutagen.id3.TPE1(encoding=utf8, text=track.artists or [album.album_artist])
+    if (date := track.date or album.date) is not None:
+        yield mutagen.id3.TDRL(encoding=utf8, text=[date.strftime("%Y-%m-%d")])
+
+    # sequence
     if not album.singles:
         yield mutagen.id3.TRCK(encoding=utf8, text=[f"{index}/{len(album.tracks)}"])
 
@@ -55,19 +61,17 @@ def _generate_tags(
 
         yield mutagen.id3.TALB(encoding=utf8, text=[album.album])
         yield mutagen.id3.TPE2(encoding=utf8, text=[album.album_artist])
-        yield mutagen.id3.TYER(encoding=utf8, text=[album.date.strftime("%Y")])
 
     # fetch
     yield mutagen.id3.WOAS(url=track.url or album.url)
 
     # cover
-    cover_url = track.cover or album.cover
-    if cover_url:
-        cover_mime, cover_data = fetch_cover(cover_url)
+    if (cover := track.cover or album.cover) is not None:
+        cover_mime, cover_data = fetch_cover(cover)
         yield mutagen.id3.APIC(
             mime=cover_mime,
             type=mutagen.id3.PictureType.COVER_FRONT,
-            desc=cover_url,
+            desc=cover,
             data=cover_data,
         )
 
