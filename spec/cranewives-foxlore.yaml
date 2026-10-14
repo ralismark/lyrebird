@@ -3,6 +3,7 @@ url: "https://thecranewives.bandcamp.com/album/foxlore"
 
 lrc:
   expect: true
+  artist: "Crane Wives"
 
   # lrclib's ones are especially off-sync for some reason
   offset: 0

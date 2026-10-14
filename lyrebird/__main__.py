@@ -65,6 +65,7 @@ async def process_album(
                     f.write(lyrics)
         except Exception:
             console.print_exception()
+            raise
 
 
 async def main() -> None:
@@ -96,7 +97,7 @@ async def main() -> None:
             else f"{album.album_artist} - {album.album}"
         )
 
-        if args.ifne and albumdir.exists():
+        if args.ifne and albumdir.exists() and len(list(albumdir.iterdir())):
             continue
 
         console.print(f"===== {spec}", style="bold blue")
@@ -106,6 +107,11 @@ async def main() -> None:
             await process_album(album, albumdir)
         except Exception:
             console.print_exception()
+            for f in albumdir.iterdir():
+                f.unlink()
+            albumdir.rmdir()
+
+            raise
 
 
 if __name__ == "__main__":

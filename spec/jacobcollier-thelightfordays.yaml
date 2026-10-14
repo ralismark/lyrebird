@@ -1,7 +1,7 @@
 url: "https://music.youtube.com/playlist?list=OLAK5uy_kvwi78VB5h48Wmt2OCB60IhQsM_se07z0"
 
 lrc:
-  expect: ~
+  expect: true
 
 # common metadata
 album: "The Light for Days"

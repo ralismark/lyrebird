@@ -13,7 +13,7 @@ cover: https://i1.sndcdn.com/artworks-e9eaa0da-591f-4f35-b1a1-dc754744d78b-0-t50
 tracks:
 
 - title: Hartebeest
-  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/Hartebeest_0.jpg
+  # cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/Hartebeest_0.jpg
   lrc:
     from_text: |
       [00:53.97] 🐰I can hear the song of the hartebeest
@@ -66,7 +66,7 @@ tracks:
       [04:14.02]
 
 - title: Harpy Hare
-  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/harpyHare_0.jpg
+  # cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/harpyHare_0.jpg
   lrc:
     from_text: |
       [00:01.34] 🫎🐰🐐Ha, ha, ha (🪵Oa, oa, oo)
@@ -107,7 +107,7 @@ tracks:
       [03:00.09]
 
 - title: And the Hound
-  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/andTheHound_0.jpg
+  # cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/andTheHound_0.jpg
   lrc:
     from_text: |
       [00:01.34] 🐰A rake of claws against a mirror
@@ -166,7 +166,7 @@ tracks:
       [03:23.85]
 
 - title: Neath the grove is a heart
-  cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/neathTheGroove_0.jpg
+  # cover: https://www.yaelokre.com/sites/g/files/g2000020151/files/styles/album_image_cache/public/2025-05/neathTheGroove_0.jpg
   lrc:
     from_text: |
       [00:28.45] 🐰The ground wrings an unknown strain

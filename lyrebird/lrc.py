@@ -45,7 +45,7 @@ class LrclibResult(pydantic.BaseModel):
     trackName: str
     artistName: str
     albumName: str
-    duration: float
+    duration: float | None
     instrumental: bool
     plainLyrics: str | None
     syncedLyrics: str | None
@@ -174,7 +174,7 @@ class Lrc(pydantic.BaseModel):
             r.raise_for_status()
             matches = sorted(
                 [LrclibResult(**x, source="search") for x in r.json()],
-                key=lambda m: abs(m.duration - self.duration),
+                key=lambda m: abs(m.duration - self.duration) if m.duration else 99999,
             )
             for m in matches:
                 if not m.syncedLyrics:
@@ -237,7 +237,8 @@ class Lrc(pydantic.BaseModel):
 
         print(f"    id: {result.id}")
         assert (
-            abs(result.duration - self.duration) <= self.duration_slop
+            result.duration
+            and abs(result.duration - self.duration) <= self.duration_slop
         ), f"lrc duration {result.duration}s too different from mp3 duration {self.duration}s"
 
         lrc = result.syncedLyrics

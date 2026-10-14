@@ -7,6 +7,7 @@ cover: "https://t2.genius.com/unsafe/600x600/https%3A%2F%2Fimages.genius.com%2Fb
 
 lrc:
   expect: true
+  artist: Stephen Schwartz
 
 tracks:
 - title: "No One Mourns the Wicked"

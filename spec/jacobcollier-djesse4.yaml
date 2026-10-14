@@ -78,6 +78,8 @@ tracks:
     - "Sho Madjozi"
     - "Yelle"
     - "Kanyi Mavi"
+  lrc:
+    id: 13233983
 - title: "Box of Stars Pt. 2"
   artists:
     - "Jacob Collier"

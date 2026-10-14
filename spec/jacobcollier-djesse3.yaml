@@ -3,7 +3,6 @@ url: "https://jacobcolliermusic.bandcamp.com/album/djesse-vol-3"
 
 lrc:
   expect: true
-  artist: "Jacob Collier"
 
 # common metadata
 album: "Djesse Vol. 3"
@@ -16,6 +15,8 @@ tracks:
 - title: "CLARITY"
   artists:
     - "Jacob Collier"
+  lrc:
+    artist: "Collier, Jacob"
 - title: "Count the People"
   artists:
     - "Jacob Collier"
@@ -61,3 +62,5 @@ tracks:
 - title: "To Sleep"
   artists:
     - "Jacob Collier"
+  lrc:
+    artist: "Collier, Jacob"

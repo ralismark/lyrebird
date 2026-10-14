@@ -172,19 +172,38 @@ class AlbumFetch(pydantic.BaseModel):
         return [src.fetch() for src in self._srcs()]
 
 
+CACHEDIR_COVER_DATA_FILE = "data"
+CACHEDIR_COVER_MIME_FILE = "mime"
+
+
 @functools.cache
 def fetch_cover(url: str) -> tuple[str, bytes]:
     """
     Fetch a cover URL, returning its mime type and the data.
     """
+    dir = CACHEDIR / url.replace("/", "%")
+    if dir.exists():
+        with (dir / CACHEDIR_COVER_MIME_FILE).open("rt") as f:
+            mime = f.read().strip()
+        with (dir / CACHEDIR_COVER_DATA_FILE).open("rb") as f:
+            data = f.read()
+        return mime, data
+
     r = requests.get(
         url,
         headers={
-            # "user-agent": "Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0"
         },
     )
     r.raise_for_status()
 
     mime = r.headers["content-type"]
     data = r.content
+
+    dir.mkdir(parents=True, exist_ok=True)
+    with (dir / CACHEDIR_COVER_MIME_FILE).open("wt") as f:
+        f.write(mime)
+    with (dir / CACHEDIR_COVER_DATA_FILE).open("wb") as f:
+        f.write(data)
+
     return mime, data

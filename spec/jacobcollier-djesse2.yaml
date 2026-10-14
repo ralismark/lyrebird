@@ -2,7 +2,7 @@
 url: "https://jacobcolliermusic.bandcamp.com/album/djesse-vol-2"
 
 lrc:
-  expect: ~
+  expect: true
 
 # common metadata
 album: "Djesse Vol. 2"
@@ -16,7 +16,11 @@ tracks:
   artists:
     - Jacob Collier
     - Kathryn Tickell
+  lrc:
+    expect: false
 - title: "Sky Above"
+  lrc:
+    id: 12381586
 - title: "Bakumbe"
   artists:
     - Jacob Collier
@@ -28,6 +32,8 @@ tracks:
     - Jacob Collier
     - Lianne La Havas
 - title: "À Noite (interlude)"
+  lrc:
+    expect: false
 - title: "Lua"
   artists:
     - Jacob Collier
@@ -56,3 +62,5 @@ tracks:
     - Steve Vai
 - title: "Outro"
 - title: "Time to Rest Your Weary Head"
+  lrc:
+    id: 31550140
