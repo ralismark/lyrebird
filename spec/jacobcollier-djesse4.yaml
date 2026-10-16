@@ -6,71 +6,71 @@ lrc:
 
 # common metadata
 album: "Djesse Vol. 4"
-album_artist: "Jacob Collier"
+artist: "Jacob Collier"
 date: 2024-02-29
 cover: "https://upload.wikimedia.org/wikipedia/en/5/51/Djesse_Vol_4_album_cover.jpg"
 
 # per-track info
 tracks:
 - title: "100,000 Voices"
-  artists:
+  artist:
     - "Jacob Collier"
 - title: "She Put Sunshine"
-  artists:
+  artist:
     - "Jacob Collier"
 - title: "Little Blue"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Brandi Carlile"
 - title: "WELLLL"
-  artists:
+  artist:
     - "Jacob Collier"
 - title: "Cinnamon Crush"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Lindsey Lomis"
 - title: "Wherever I Go"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Lawrence"
     - "Michael McDonald"
 - title: "Summer Rain"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Madison Cunningham"
     - "Chris Thile"
 - title: "A Rock Somewhere"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Anoushka Shankar"
     - "Varijashree Venugopal"
 - title: "Mi Corazón"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Camilo"
 - title: "Witness Me"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Shawn Mendes"
     - "Stormzy"
     - "Kirk Franklin"
 - title: "Never Gonna Be Alone"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Lizzy McAlpine"
     - "John Mayer"
 - title: "Bridge over Troubled Water"
-  artists:
+  artist:
     - "Jacob Collier"
     - "John Legend"
     - "Tori Kelly"
 - title: "Over You"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Aespa"
     - "Chris Martin"
 - title: "Box of Stars Pt. 1"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Kirk Franklin"
     - "Chika"
@@ -81,12 +81,12 @@ tracks:
   lrc:
     id: 13233983
 - title: "Box of Stars Pt. 2"
-  artists:
+  artist:
     - "Jacob Collier"
     - "Metropole Orkest"
     - "Suzie Collier"
     - "Steve Vai"
     - "VOCES8"
 - title: "World O World"
-  artists:
+  artist:
     - "Jacob Collier"

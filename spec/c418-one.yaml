@@ -6,7 +6,7 @@ lrc:
 
 # common metadata
 album: "one"
-album_artist: "C418"
+artist: "C418"
 date: 2012-12-23
 cover: "https://f4.bcbits.com/img/a1911559443_10.jpg"
 
@@ -34,7 +34,7 @@ tracks:
 - title: this doesn't work
 - title: wooden love
 - title: I glove thy flob
-  artists:
+  artist:
     - disco
     - C418
 - title: post success depression
@@ -44,10 +44,10 @@ tracks:
 - title: no pressure
 - title: one
 - title: fifflas
-  artists:
+  artist:
     - Nifflas
     - C418
 - title: tsuki no koibumi
-  artists:
+  artist:
     - Laura Shigihara
     - C418

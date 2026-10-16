@@ -6,7 +6,7 @@ lrc:
 
 # common metadata
 album: "Seven Years of Server Data"
-album_artist: "C418"
+artist: "C418"
 date: 2011-11-03
 cover: "https://f4.bcbits.com/img/a0115316694_10.jpg"
 
@@ -14,20 +14,20 @@ tracks:
 - title: Atempause
 - title: Vlem
 - title: BGC418
-  artists:
+  artist:
     - "C418"
     - "Big Giant Circles"
 - title: mau5cave
-  artists:
+  artist:
     - "C418"
     - "Deadmau5"
 - title: The first unfinished song for the Minecraft documentary
 - title: The song I show if someone wants to hear a new Minecraft song
 - title: Tonic (C418's "I use this in my set" remix)
-  artists:
+  artist:
     - "Lusine Icl"
 - title: Lemons (C418's "I want this to be a complete song" mix)
-  artists:
+  artist:
     - "Weebl"
 - title: water
 - title: a fail

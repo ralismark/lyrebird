@@ -6,13 +6,13 @@ lrc:
   album: "Bare - a pop opera"
 
 album: "Bare: A Pop Opera"
-album_artist: Damon Intrabartolo
+artist: Damon Intrabartolo
 date: 2007-10-30
 cover: "https://t2.genius.com/unsafe/1180x0/https%3A%2F%2Fimages.genius.com%2F8262f5080ce709c18734a30623faed0e.400x400x1.jpg"
 
 tracks:
 - title: Epiphany
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
   - Jenna Leigh Green
@@ -29,7 +29,7 @@ tracks:
   - Anna Rose
   - Joel Echols
 - title: You & I
-  artists:
+  artist:
   - James Snyder
   - Matt Doyle
   - Jenna Leigh Green
@@ -44,10 +44,10 @@ tracks:
   - Anna Rose
   - Joel Echols
 - title: Role of a Lifetime
-  artists:
+  artist:
   - Matt Doyle
 - title: Auditions
-  artists:
+  artist:
   - Stephanie Andersen
   - Matt Doyle
   - James Snyder
@@ -63,11 +63,11 @@ tracks:
   - Anna Rose
   - Joel Echols
 - title: Plain Jane Fat Ass
-  artists:
+  artist:
   - Keili Lefkovitz
   - James Snyder
 - title: Wonderland
-  artists:
+  artist:
   - Jason Ryterband
   - Keili Lefkovitz
   - Jenna Leigh Green
@@ -76,15 +76,15 @@ tracks:
   - Christopher Lefkovitz
   - Judith Hill
 - title: A Quiet Night at Home
-  artists:
+  artist:
   - Keili Lefkovitz
 - title: Rolling
 - title: Best Kept Secret
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
 - title: Confession
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
   - Jenna Leigh Green
@@ -100,11 +100,11 @@ tracks:
   - Joel Echols
   - Jim Price
 - title: Portrait of a Girl
-  artists:
+  artist:
   - Jenna Leigh Green
   - Christopher Lefkovitz
 - title: Birthday, Bitch!
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
   - Jenna Leigh Green
@@ -119,41 +119,41 @@ tracks:
   - Anna Rose
   - Joel Echols
 - title: One Kiss
-  artists:
+  artist:
   - Jenna Leigh Green
   - James Snyder
 - title: Are You There?
-  artists:
+  artist:
   - Matt Doyle
   - Christopher Lefkovitz
 - title: 911! Emergency!
-  artists:
+  artist:
   - Stephanie Andersen
   - Judith Hill
   - Carmel Echols
 - title: Reputation Stain'd
-  artists:
+  artist:
   - Christopher Lefkovitz
   - James Snyder
   - Jenna Leigh Green
   - Keili Lefkovitz
   - Matt Doyle
 - title: Ever After
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
 # - title: Spring
-#   artists:
+#   artist:
 #   - Keili Lefkovitz
 - title: One
-  artists:
+  artist:
   - Jenna Leigh Green
   - James Snyder
   - Keili Lefkovitz
   - Christopher Lefkovitz
   - Matt Doyle
 - title: Wedding Bells
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
   - Jenna Leigh Green
@@ -170,7 +170,7 @@ tracks:
   - Anna Rose
   - Joel Echols
 # - title: In the Hallway
-#   artists:
+#   artist:
 #   - Matt Doyle
 #   - James Snyder
 #   - Jenna Leigh Green
@@ -185,42 +185,42 @@ tracks:
 #   - Anna Rose
 #   - Joel Echols
 - title: Touch My Soul
-  artists:
+  artist:
   - Jenna Leigh Green
   - James Snyder
 - title: See Me
-  artists:
+  artist:
   - Matt Doyle
   - Kaitlin Hopkins
 - title: Warning
-  artists:
+  artist:
   - Kaitlin Hopkins
 - title: Pilgrim's Hands
-  artists:
+  artist:
   - James Snyder
   - Matt Doyle
 - title: God Don't Make No Trash
-  artists:
+  artist:
   - Stephanie Andersen
 - title: All Grown Up
-  artists:
+  artist:
   - Jenna Leigh Green
 - title: Promise
-  artists:
+  artist:
   - James Snyder
   - Jenna Leigh Green
   - Christopher Lefkovitz
   - Matt Doyle
   - Keili Lefkovitz
 - title: Once Upon a Time
-  artists:
+  artist:
   - James Snyder
 - title: Cross
-  artists:
+  artist:
   - Jim Price
   - James Snyder
 - title: Two Households
-  artists:
+  artist:
   - Stephanie Andersen
   - Matt Doyle
   - James Snyder
@@ -236,15 +236,15 @@ tracks:
   - Anna Rose
   - Joel Echols
 - title: Bare
-  artists:
+  artist:
   - James Snyder
   - Matt Doyle
 - title: Queen Mab
-  artists:
+  artist:
   - James Snyder
   - Matt Doyle
 # - title: A Glooming Peace
-#   artists:
+#   artist:
 #   - Matt Doyle
 #   - James Snyder
 #   - Jenna Leigh Green
@@ -259,11 +259,11 @@ tracks:
 #   - Anna Rose
 #   - Joel Echols
 - title: Absolution
-  artists:
+  artist:
   - Matt Doyle
   - Jim Price
 - title: No Voice
-  artists:
+  artist:
   - Matt Doyle
   - James Snyder
   - Jenna Leigh Green

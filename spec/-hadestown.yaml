@@ -3,7 +3,7 @@ url: "https://youtube.com/playlist?list=PLRZSQz1lG4bF6viKz1E-51R9yObBsq1Pa"
 
 # common metadata
 album: "Hadestown (Original Broadway Cast Recording)"
-album_artist: "Anaïs Mitchell"
+artist: "Anaïs Mitchell"
 date: 2019-06-07
 cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Hadestown_broadway_cast_recording.jpg"
 
@@ -13,17 +13,17 @@ lrc:
 # per-track info
 tracks:
 - title: "Road to Hell"
-  artists:
+  artist:
     - "André De Shields"
     - "Hadestown Original Broadway Company"
 - title: "Any Way the Wind Blows"
-  artists:
+  artist:
     - "Eva Noblezada"
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
 - title: "Come Home with Me"
-  artists:
+  artist:
     - "Reeve Carney"
     - "Eva Noblezada"
     - "André De Shields"
@@ -33,7 +33,7 @@ tracks:
     - "John Krause"
     - "Ahmad Simmons"
 - title: "Wedding Song"
-  artists:
+  artist:
     - "Reeve Carney"
     - "Eva Noblezada"
     - "Afra Hines"
@@ -42,27 +42,27 @@ tracks:
     - "Ahmad Simmons"
     - "Kimberly Marable"
 - title: "Epic I"
-  artists:
+  artist:
     - "Reeve Carney"
     - "André De Shields"
 - title: "Livin' It Up on Top"
-  artists:
+  artist:
     - "Amber Gray"
     - "André De Shields"
     - "Reeve Carney"
     - "Hadestown Original Broadway Company"
 - title: "All I've Ever Known (Intro)"
-  artists:
+  artist:
     - "André De Shields"
 - title: "All I've Ever Known"
-  artists:
+  artist:
     - "Eva Noblezada"
     - "Reeve Carney"
 - title: "Way Down Hadestown"
-  artists:
+  artist:
     - "Hadestown Original Broadway Company"
 - title: "A Gathering Storm"
-  artists:
+  artist:
     - "André De Shields"
     - "Reeve Carney"
     - "Eva Noblezada"
@@ -70,36 +70,36 @@ tracks:
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
 - title: "Epic II"
-  artists:
+  artist:
     - "Reeve Carney"
 - title: "Chant"
-  artists:
+  artist:
     - "Hadestown Original Broadway Company"
 - title: "Hey, Little Songbird"
-  artists:
+  artist:
     - "Patrick Page"
     - "Eva Noblezada"
 - title: "When the Chips Are Down (Intro)"
-  artists:
+  artist:
     - "André De Shields"
 - title: "When the Chips Are Down"
-  artists:
+  artist:
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
     - "Eva Noblezada"
 - title: "Gone, I'm Gone"
-  artists:
+  artist:
     - "Eva Noblezada"
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
 - title: "Wait for Me (Intro)"
-  artists:
+  artist:
     - "André De Shields"
     - "Reeve Carney"
 - title: "Wait for Me"
-  artists:
+  artist:
     - "André De Shields"
     - "Reeve Carney"
     - "Jewelle Blackman"
@@ -115,17 +115,17 @@ tracks:
     - "T. Oliver Reid"
     - "John Krause"
 - title: "Why We Build the Wall"
-  artists:
+  artist:
     - "Patrick Page"
     - "Hadestown Original Broadway Company"
 - title: "Why We Build the Wall (Outro)"
-  artists:
+  artist:
     - "André De Shields"
 - title: "Our Lady of the Underground"
-  artists:
+  artist:
     - "Amber Gray"
 - title: "Way Down Hadestown (Reprise)"
-  artists:
+  artist:
     - "André De Shields"
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
@@ -141,29 +141,29 @@ tracks:
     - "T. Oliver Reid"
     - "John Krause"
 - title: "Flowers"
-  artists:
+  artist:
     - "Eva Noblezada"
 - title: "Come Home with Me (Reprise)"
-  artists:
+  artist:
     - "Reeve Carney"
     - "Eva Noblezada"
 - title: "Papers (Intro)"
-  artists:
+  artist:
     - "Patrick Page"
     - "Amber Gray"
     - "André De Shields"
     - "Eva Noblezada"
     - "Reeve Carney"
 - title: "Papers (Instrumental)"
-  artists:
+  artist:
     - "Hadestown Original Broadway Band"
 - title: "Nothing Changes"
-  artists:
+  artist:
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
 - title: "If It's True"
-  artists:
+  artist:
     - "Reeve Carney"
     - "André De Shields"
     - "Afra Hines"
@@ -172,33 +172,33 @@ tracks:
     - "Kimberly Marable"
     - "Ahmad Simmons"
 - title: "How Long?"
-  artists:
+  artist:
     - "Amber Gray"
     - "Patrick Page"
 - title: "Chant (Reprise)"
-  artists:
+  artist:
     - "Hadestown Original Broadway Company"
 - title: "Epic III"
-  artists:
+  artist:
     - "Reeve Carney"
     - "Hadestown Original Broadway Company"
 - title: "Epic III (Instrumental)"
-  artists:
+  artist:
     - "Hadestown Original Broadway Band"
 - title: "Promises"
-  artists:
+  artist:
     - "Eva Noblezada"
     - "Reeve Carney"
 - title: "Word to the Wise"
-  artists:
+  artist:
     - "Jewelle Blackman"
     - "Yvette Gonzalez-Nacer"
     - "Kay Trinidad"
 - title: "His Kiss, the Riot"
-  artists:
+  artist:
     - "Patrick Page"
 - title: "Wait for Me (Reprise) (Intro)"
-  artists:
+  artist:
     - "André De Shields"
     - "Reeve Carney"
     - "Eva Noblezada"
@@ -208,11 +208,11 @@ tracks:
     - "John Krause"
     - "Ahmad Simmons"
 - title: "Wait for Me (Reprise)"
-  artists:
+  artist:
     - "André De Shields"
     - "Hadestown Original Broadway Company"
 - title: "Doubt Comes In"
-  artists:
+  artist:
     - "Reeve Carney"
     - "Eva Noblezada"
     - "Jewelle Blackman"
@@ -224,11 +224,11 @@ tracks:
     - "Timothy Hughes"
     - "Ahmad Simmons"
 - title: "Road to Hell (Reprise)"
-  artists:
+  artist:
     - "André De Shields"
     - "Hadestown Original Broadway Company"
 - title: "We Raise Our Cups"
-  artists:
+  artist:
     - "Amber Gray"
     - "Eva Noblezada"
     - "Hadestown Original Broadway Company"

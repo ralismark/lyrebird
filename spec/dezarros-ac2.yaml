@@ -4,7 +4,7 @@ lrc:
   expect: false
 
 album: "Animal Crossing: Album 2"
-album_artist: "Dezarros"
+artist: "Dezarros"
 date: 2024-09-14
 cover: "https://i.ytimg.com/vi/ExkDHGa2wiY/maxresdefault.jpg" # TODO this is just 10am
 

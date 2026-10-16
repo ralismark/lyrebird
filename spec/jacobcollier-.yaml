@@ -1,6 +1,6 @@
 singles: true
 
-album_artist: Jacob Collier
+artist: Jacob Collier
 album: ~
 date: ~
 cover: ~
@@ -10,4 +10,4 @@ tracks:
 
 - title: Fix You
   url: https://www.youtube.com/watch?v=TwC0Db7oerM
-  artists: [Jacob Collier, Chris Martin]
+  artist: [Jacob Collier, Chris Martin]

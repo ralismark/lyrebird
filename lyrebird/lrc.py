@@ -22,7 +22,7 @@ HTTP.mount(
     "https://lrclib.net",
     HTTPAdapter(
         max_retries=Retry(
-            total=3,
+            total=5,
             backoff_factor=1,
             status_forcelist=[503],
         ),
@@ -96,7 +96,7 @@ class Lrc(pydantic.BaseModel):
     def from_track(cls, track: TrackMeta, album: AlbumMeta, duration: float) -> t.Self:
         return cls(
             track=track.title,
-            artist=", ".join(track.artists or [album.album_artist]),
+            artist=", ".join(track.artist or album.artist or []),
             album=album.album or track.title,
             duration=duration,
         )

@@ -4,7 +4,7 @@ lrc:
   expect: false
 
 album: "A Hat in Time"
-album_artist: Pascal Michael Stiefel
+artist: Pascal Michael Stiefel
 date: 2017-10-06
 cover: https://ahatintime.wiki.gg/images/thumb/Soundtrack_Steam_Cover.png/480px-Soundtrack_Steam_Cover.png
 
@@ -16,7 +16,7 @@ tracks:
 - title: The Mystery Track
 - title: Welcome to Mafia Town
 - title: Welcome to Mafia Town (Remix)
-  artists:
+  artist:
   - Qumu
 - title: Time Piece Released
 - title: Barrel Battle
@@ -28,7 +28,7 @@ tracks:
 - title: The Badge Seller
 - title: Mafia Boss' big Showdown
 - title: Mafia Boss' big Showdown (Remix)
-  artists:
+  artist:
   - AdulescensF
 - title: Heating up Mafia Town
 - title: No More Mafia Boss
@@ -39,7 +39,7 @@ tracks:
 - title: The Ratings Are In
 - title: Picture Perfect
 - title: Picture Perfect (Remix)
-  artists:
+  artist:
   - Carlos Eiene
 - title: Murder on the Owl Express
 - title: Who Dun It
@@ -62,7 +62,7 @@ tracks:
 - title: Oh It's You
 - title: Subcon Village
 - title: Subcon Village (Remix)
-  artists:
+  artist:
   - Echorobot
 - title: The Fire Spirits
 - title: The Subcon Caves
@@ -73,7 +73,7 @@ tracks:
 - title: You're Safe Now
 - title: Your Contract Has Expired
 - title: Your Contract Has Expired (Remix)
-  artists:
+  artist:
   - Cameron Munoz
 - title: The Tower of the Goats
 - title: Alpine Skyline
@@ -86,7 +86,7 @@ tracks:
 - title: Clocktowers Beneath the Sea
 - title: Scootin' through Clocktowers Beneath the Sea
 - title: Clocktowers Beneath the Sea (Remix)
-  artists:
+  artist:
   - AdulescensF
 - title: Mafia of Cooks Time Rift
 - title: Battle of the Birds Time Rift

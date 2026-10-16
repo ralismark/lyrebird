@@ -14,25 +14,32 @@ if t.TYPE_CHECKING:
     from .schema import Album
 
 
-class AlbumMeta(pydantic.BaseModel):
+class InheritableMeta(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
-    album: str | None = None
-    album_artist: str
+    artist: list[str] | None = None
     date: dt.date | None = None
     cover: str | None = None
 
+    @pydantic.field_validator("artist", mode="before")
+    @classmethod
+    def listify(cls, value: str | list[str]) -> list[str]:
+        if not isinstance(value, list):
+            return [value]
+        return value
+
+
+class AlbumMeta(InheritableMeta):
+    model_config = pydantic.ConfigDict(extra="forbid")
+
     singles: bool = False
+    album: str | None = None
 
 
-class TrackMeta(pydantic.BaseModel):
+class TrackMeta(InheritableMeta):
     model_config = pydantic.ConfigDict(extra="forbid")
 
     title: str = pydantic.Field(pattern="[^/]+")
-
-    artists: list[str] | None = None
-    cover: str | None = None
-    date: dt.date | None = None
 
 
 # TODO this depends too much on the top-level types
@@ -45,7 +52,10 @@ def _generate_tags(
 
     # track tags
     yield mutagen.id3.TIT2(encoding=utf8, text=track.title)
-    yield mutagen.id3.TPE1(encoding=utf8, text=track.artists or [album.album_artist])
+
+    assert (artist := track.artist or album.artist) is not None
+    yield mutagen.id3.TPE1(encoding=utf8, text=artist)
+
     if (date := track.date or album.date) is not None:
         yield mutagen.id3.TDRL(encoding=utf8, text=[date.strftime("%Y-%m-%d")])
 
@@ -56,11 +66,11 @@ def _generate_tags(
     # album tags
     if not album.singles:
         assert album.album
-        assert album.album_artist
+        assert album.artist
         assert album.date
 
         yield mutagen.id3.TALB(encoding=utf8, text=[album.album])
-        yield mutagen.id3.TPE2(encoding=utf8, text=[album.album_artist])
+        yield mutagen.id3.TPE2(encoding=utf8, text=album.artist)
 
     # fetch
     yield mutagen.id3.WOAS(url=track.url or album.url)

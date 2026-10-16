@@ -4,38 +4,38 @@ lrc:
   expect: false
 
 album: "Minecraft: Caves & Cliffs"
-album_artist: "Minecraft"
+artist: "Minecraft"
 date: 2021-10-20
 cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/02/93/22029334-8161-4c8d-18c0-2fc72029ec2a/192641853173_Cover.jpg/1200x1200bf-60.jpg
 
 tracks:
 - title: Stand Tall
-  artists:
+  artist:
   - Lena Raine
 - title: Left to Bloom
-  artists:
+  artist:
   - Lena Raine
 - title: Ancestry
-  artists:
+  artist:
   - Lena Raine
 - title: Wending
-  artists:
+  artist:
   - Lena Raine
 - title: Infinite Amethyst
-  artists:
+  artist:
   - Lena Raine
 - title: One More Day
-  artists:
+  artist:
   - Lena Raine
 - title: otherside
-  artists:
+  artist:
   - Lena Raine
 - title: Floating Dream
-  artists:
+  artist:
   - Kumi Tanioka
 - title: Comforting Memories
-  artists:
+  artist:
   - Kumi Tanioka
 - title: An Ordinary Day
-  artists:
+  artist:
   - Kumi Tanioka

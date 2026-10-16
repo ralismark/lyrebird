@@ -6,14 +6,14 @@ lrc:
 
 # common metadata
 album: "Djesse Vol. 2"
-album_artist: "Jacob Collier"
+artist: "Jacob Collier"
 date: 2020-08-14
 cover: "https://f4.bcbits.com/img/a4127170308_10.jpg"
 
 # per-track info
 tracks:
 - title: "Intro"
-  artists:
+  artist:
     - Jacob Collier
     - Kathryn Tickell
   lrc:
@@ -22,42 +22,42 @@ tracks:
   lrc:
     id: 12381586
 - title: "Bakumbe"
-  artists:
+  artist:
     - Jacob Collier
     - Sam Amidon
 - title: "Make Me Cry"
 - title: "Moon River"
 - title: "Feel"
-  artists:
+  artist:
     - Jacob Collier
     - Lianne La Havas
 - title: "À Noite (interlude)"
   lrc:
     expect: false
 - title: "Lua"
-  artists:
+  artist:
     - Jacob Collier
     - MARO
 - title: "I Heard You Singing"
-  artists:
+  artist:
     - Jacob Collier
     - Becca Stevens
     - Chris Thile
 - title: "It Don't Matter"
-  artists:
+  artist:
     - Jacob Collier
     - JoJo
 - title: "Here Comes the Sun"
-  artists:
+  artist:
     - Jacob Collier
     - Dodie
 - title: "Dun Dun Ba Ba (interlude)"
 - title: "Nebaluyo"
-  artists:
+  artist:
     - Jacob Collier
     - Oumou Sangaré
 - title: "Do You Feel Love"
-  artists:
+  artist:
     - Jacob Collier
     - Steve Vai
 - title: "Outro"

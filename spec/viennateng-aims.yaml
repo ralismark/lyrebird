@@ -7,7 +7,7 @@ lrc:
 
 # common metadata
 album: "Aims"
-album_artist: "Vienna Teng"
+artist: "Vienna Teng"
 date: 2013-09-24
 cover: "https://f4.bcbits.com/img/a3295576237_10.jpg"
 
@@ -15,7 +15,7 @@ tracks:
 - title: Level Up
 - title: In the 99
 - title: Landsailor
-  artists:
+  artist:
   - Vienna Teng
   - Glen Phillips
 - title: Close to Home
@@ -24,7 +24,7 @@ tracks:
 - title: Copenhagen (Let Me Go)
 - title: Flyweight Love
 - title: The Breaking Light
-  artists:
+  artist:
   - Vienna Teng
   - Alex Wong
 - title: Never Look Away

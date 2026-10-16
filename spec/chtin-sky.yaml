@@ -5,24 +5,24 @@ lrc:
 
 # common metadata
 album: "To Shiver the Sky"
-album_artist: "Christopher Tin"
+artist: "Christopher Tin"
 date: 2020-08-21
 cover: "https://cdn.shopify.com/s/files/1/0605/3655/3691/files/ToShiverTheSky-Cover-1600x1600.jpg"
 
 tracks:
 - title: Sogno di Volare ("The Dream of Flight")
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Royal Opera Chorus"
 - title: The Heavenly Kingdom
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "ModernMedieval"
     - "The Assembly"
 - title: Daedalus and Icarus
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Pene Pati"
@@ -31,48 +31,48 @@ tracks:
   lrc:
     expect: false # closest one is has duration that is too off
 - title: The Fall
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Pene Pati"
     - "ModernMedieval"
     - "Royal Opera Chorus"
 - title: Astronomy
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "The Assembly"
     - "Anna Lapwood"
 - title: To the Stars
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Pembroke College Girls' Choir"
     - "The Assembly"
 - title: Oh, the Humanity
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Pene Pati"
     - "Royal Opera Chorus"
 - title: Courage
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Danielle de Niese"
 - title: Become Death
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "ModernMedieval"
     - "Royal Opera Chorus"
 - title: The Power of the Spirit
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Royal Opera Chorus"
 - title: We Choose to Go to the Moon
-  artists:
+  artist:
     - "Christopher Tin"
     - "Royal Philharmonic Orchestra"
     - "Danielle de Niese"

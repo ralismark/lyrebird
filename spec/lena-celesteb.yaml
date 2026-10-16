@@ -6,35 +6,35 @@ lrc:
 
 # common metadata
 album: "Celeste B-Sides"
-album_artist: "Lena Raine"
+artist: "Lena Raine"
 date: 2018-01-25
 cover: "https://f4.bcbits.com/img/a0426095820_10.jpg"
 
 tracks:
 - title: Forsaken City (Sever the Skyline Mix)
-  artists:
+  artist:
     - "Maxo"
 - title: Old Site (Black Moonrise Mix)
-  artists:
+  artist:
     - "Ben Prunty"
 - title: Celestial Resort (Good Karma Mix)
-  artists:
+  artist:
     - "Christa Lee"
 - title: Golden Ridge (Golden Feather Mix)
-  artists:
+  artist:
     - "in love with a ghost"
 - title: Mirror Temple (Mirror Magic Mix)
-  artists:
+  artist:
     - "2 Mello"
 - title: Reflection (Center of the Earth Mix)
-  artists:
+  artist:
     - "Jukio Kallio"
 - title: Summit (No More Running Mix)
-  artists:
+  artist:
     - "kuraine"
 - title: The Core (Say Goodbye Mix)
-  artists:
+  artist:
     - "Matthewせいじ"
 - title: (Bonus) Area 1 Demo
-  artists:
+  artist:
     - "Lena Raine"

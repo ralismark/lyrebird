@@ -7,7 +7,7 @@ lrc:
 
 # common metadata
 album: "EPIC: The Musical"
-album_artist: "Jorge Rivera-Herrans"
+artist: "Jorge Rivera-Herrans"
 date: 2024-12-25
 cover: "https://i1.sndcdn.com/artworks-icgSfo0zwGfSxpWC-fKmqzg-t500x500.jpg"
 
@@ -16,30 +16,30 @@ tracks:
 # Troy Saga
 
 - title: "The Horse and the Infant"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Luke Holt"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/4b/c7/394bc74b-8509-aaf3-3c44-aa17ca8fdd5b/artwork.jpg/592x592bb.webp
 - title: "Just a Man"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/4b/c7/394bc74b-8509-aaf3-3c44-aa17ca8fdd5b/artwork.jpg/592x592bb.webp
 - title: "Full Speed Ahead"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Steven Dookie"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/4b/c7/394bc74b-8509-aaf3-3c44-aa17ca8fdd5b/artwork.jpg/592x592bb.webp
 - title: "Open Arms"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Dookie"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/4b/c7/394bc74b-8509-aaf3-3c44-aa17ca8fdd5b/artwork.jpg/592x592bb.webp
 - title: "Warrior of the Mind"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Teagan Earley"
    - "Cast of EPIC: The Musical"
@@ -48,26 +48,26 @@ tracks:
  # Cyclops Saga
 
 - title: "Polyphemus"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Steven Dookie"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/e5/08/eee508f6-59f6-b120-f51c-7d85d9c27c17/artwork.jpg/592x592bb.webp
 - title: "Survive"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Dookie"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/e5/08/eee508f6-59f6-b120-f51c-7d85d9c27c17/artwork.jpg/592x592bb.webp
 - title: "Remember Them"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Teagan Earley"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/e5/08/eee508f6-59f6-b120-f51c-7d85d9c27c17/artwork.jpg/592x592bb.webp
 - title: "My Goodbye"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Teagan Earley"
    - "Cast of EPIC: The Musical"
@@ -76,19 +76,19 @@ tracks:
    # Ocean Saga
 
 - title: "Storm"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/eb/60/a9eb604b-1402-97af-8524-3400c571eb57/artwork.jpg/592x592bb.webp
 - title: "Luck Runs Out"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/eb/60/a9eb604b-1402-97af-8524-3400c571eb57/artwork.jpg/592x592bb.webp
 - title: "Keep Your Friends Close"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Kira Stone"
    - "Anna Lea"
@@ -100,7 +100,7 @@ tracks:
   lrc:
     id: 35896535
 - title: "Ruthlessness"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Rodriguez"
    - "Cast of EPIC: The Musical"
@@ -109,25 +109,25 @@ tracks:
    # Circe Saga
 
 - title: "Puppeteer"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Talya Sindel"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3d/65/4f/3d654f5e-1344-3c71-a0cc-88e1f34db889/artwork.jpg/592x592bb.webp
 - title: "Wouldn't You Like"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "TROY"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3d/65/4f/3d654f5e-1344-3c71-a0cc-88e1f34db889/artwork.jpg/592x592bb.webp
 - title: "Done For"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Talya Sindel"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3d/65/4f/3d654f5e-1344-3c71-a0cc-88e1f34db889/artwork.jpg/592x592bb.webp
 - title: "There Are Other Ways"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Talya Sindel"
    - "Cast of EPIC: The Musical"
@@ -136,19 +136,19 @@ tracks:
    # Underworld Saga
 
 - title: "The Underworld"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Dookie"
    - "Wanda Herrans"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/39/49/e83949aa-d458-9094-3936-dbfd30b012e4/artwork.jpg/592x592bb.webp
 - title: "No Longer You"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Mason Olshavsky"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/39/49/e83949aa-d458-9094-3936-dbfd30b012e4/artwork.jpg/592x592bb.webp
 - title: "Monster"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/39/49/e83949aa-d458-9094-3936-dbfd30b012e4/artwork.jpg/592x592bb.webp
@@ -156,31 +156,31 @@ tracks:
    # Thunder Saga
 
 - title: "Suffering"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Anna Lea"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/6d/67/006d674e-5a41-865e-f1bb-a0597753734a/artwork.jpg/592x592bb.webp
 - title: "Different Beast"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Anna Lea"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/6d/67/006d674e-5a41-865e-f1bb-a0597753734a/artwork.jpg/592x592bb.webp
 - title: "Scylla"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "KJ Burkhauser"
    - "Armando Julián"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/6d/67/006d674e-5a41-865e-f1bb-a0597753734a/artwork.jpg/592x592bb.webp
 - title: "Mutiny"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Armando Julián"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/6d/67/006d674e-5a41-865e-f1bb-a0597753734a/artwork.jpg/592x592bb.webp
 - title: "Thunder Bringer"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Luke Holt"
    - "Anna Lea"
@@ -191,25 +191,25 @@ tracks:
    # Wisdom Saga
 
 - title: "Legendary"
-  artists:
+  artist:
    - "Miguel Veloso"
    - "Ayron Alexander"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/2e/04/0d2e040b-a295-c2bb-5d67-da5235a99ac2/artwork.jpg/592x592bb.webp
 - title: "Little Wolf"
-  artists:
+  artist:
    - "Ayron Alexander"
    - "Teagan Earley"
    - "Miguel Veloso"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/2e/04/0d2e040b-a295-c2bb-5d67-da5235a99ac2/artwork.jpg/592x592bb.webp
 - title: "We'll Be Fine"
-  artists:
+  artist:
    - "Teagan Earley"
    - "Miguel Veloso"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/2e/04/0d2e040b-a295-c2bb-5d67-da5235a99ac2/artwork.jpg/592x592bb.webp
 - title: "Love in Paradise"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Barbara Wangui"
    - "Teagan Earley"
@@ -224,7 +224,7 @@ tracks:
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/2e/04/0d2e040b-a295-c2bb-5d67-da5235a99ac2/artwork.jpg/592x592bb.webp
 - title: "God Games"
-  artists:
+  artist:
    - "Teagan Earley"
    - "Luke Holt"
    - "Brandon MicInnis"
@@ -240,23 +240,23 @@ tracks:
    # Vengeance Saga
 
 - title: "Not Sorry for Loving You"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Barbara Wangui"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/9a/b0/a69ab02f-a0fc-b196-39dc-6ca030a98a7e/artwork.jpg/592x592bb.webp
 - title: "Dangerous"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "TROY"
    - "Diana Rivera-Herrans"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/9a/b0/a69ab02f-a0fc-b196-39dc-6ca030a98a7e/artwork.jpg/592x592bb.webp
 - title: "Charybdis"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/9a/b0/a69ab02f-a0fc-b196-39dc-6ca030a98a7e/artwork.jpg/592x592bb.webp
 - title: "Get in the Water"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Rodriguez"
    - "Steven Dookie"
@@ -265,7 +265,7 @@ tracks:
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/9a/b0/a69ab02f-a0fc-b196-39dc-6ca030a98a7e/artwork.jpg/592x592bb.webp
 - title: "Six Hundred Strike"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Steven Rodriguez"
    - "Cast of EPIC: The Musical"
@@ -274,17 +274,17 @@ tracks:
    # Ithaca Saga
 
 - title: "The Challenge"
-  artists:
+  artist:
    - "Anna Lea"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b7/c5/c5b7c524-f4e1-f448-b19d-9829a3fedb45/artwork.jpg/592x592bb.webp
 - title: "Hold Them Down"
-  artists:
+  artist:
    - "Ayron Alexander"
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b7/c5/c5b7c524-f4e1-f448-b19d-9829a3fedb45/artwork.jpg/592x592bb.webp
 - title: "Odysseus"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Jamie Wiltshire"
    - "Dennis Diaz"
@@ -293,13 +293,13 @@ tracks:
    - "Cast of EPIC: The Musical"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b7/c5/c5b7c524-f4e1-f448-b19d-9829a3fedb45/artwork.jpg/592x592bb.webp
 - title: "I Can't Help but Wonder"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Miguel Veloso"
    - "Teagan Earley"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b7/c5/c5b7c524-f4e1-f448-b19d-9829a3fedb45/artwork.jpg/592x592bb.webp
 - title: "Would You Fall in Love with Me Again"
-  artists:
+  artist:
    - "Jorge Rivera-Herrans"
    - "Anna Lea"
   cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b7/c5/c5b7c524-f4e1-f448-b19d-9829a3fedb45/artwork.jpg/592x592bb.webp

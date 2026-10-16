@@ -1,161 +1,162 @@
 singles: true
-album: ~
-date: ~
-cover: ~
 url: ~
-
-album_artist: Various Artists
 
 tracks:
 
 - title: Bad Apple
-  artists: [Patricia Taxxon]
+  artist: Patricia Taxxon
   url: https://patriciataxxon.bandcamp.com/track/bad-apple
   cover: https://f4.bcbits.com/img/a3081595348_10.jpg
 
 - title: Stickerbush Symphony
-  artists: [David Wise, Jammin' Sam Miller]
+  artist: [David Wise, Jammin' Sam Miller]
   url: https://www.youtube.com/watch?v=lndBgOrTWxo
   cover: https://mario.wiki.gallery/images/thumb/7/76/NM_DKC2_Stickerbush_Symphony_Bramble_Blast.jpg/1600px-NM_DKC2_Stickerbush_Symphony_Bramble_Blast.jpg
 
+  lrc:
+    expect: false
+
 - title: "MilkyWay: Explore [Orchestral Remix]"
-  artists: [Laura Platt]
+  artist: Laura Platt
   url: https://www.youtube.com/watch?v=tK7Aif72BoA
   cover: https://i.scdn.co/image/ab67616d00001e022a0e75398c9b50047f4a0e16
 
+  lrc:
+    expect: false
+
 - title: "kulupu jan tenpo"
-  artists: [jan Misali]
+  artist: jan Misali
   url: https://conlangcritic.bandcamp.com/track/kulupu-jan-tenpo
   cover: https://f4.bcbits.com/img/a1932926099_10.jpg
 
 - title: "Something Went Terribly Wrong"
-  artists: [Meh]
+  artist: Meh
   url: "https://www.youtube.com/watch?v=t3otBjVZzT0"
 
 - title: Subways of Your Mind
-  artists: [FEX]
+  artist: FEX
   url: https://fexband.bandcamp.com/track/subways-of-your-mind
   cover: https://f4.bcbits.com/img/a1472024769_10.jpg
 
 # The Beginner's Guide
 
 - title: Va (Extended)
-  artists: [Ryan Roth]
+  artist: Ryan Roth
   url: https://www.youtube.com/watch?v=eRFj6IS4HqM
   cover: https://f4.bcbits.com/img/a0739110070_10.jpg
 
 - title: Turn Back
-  artists: [Ryan Roth]
+  artist: Ryan Roth
   url: https://dualryan.bandcamp.com/track/turn-back
   cover: https://f4.bcbits.com/img/a0739110070_10.jpg
 
 # Mainstream
 
 - title: Running Up That Hill
-  artists: [Kate Bush]
+  artist: Kate Bush
   url: https://www.youtube.com/watch?v=wp43OdtAAkM
   lrc:
     expect: true
 
 - title: "I'm Still Standing"
-  artists: [Elton John]
+  artist: Elton John
   url: https://www.youtube.com/watch?v=ZHwVBirqD2s
   lrc:
     expect: true
 
 - title: People Like Us
-  artists: [Kelly Clarkson]
+  artist: Kelly Clarkson
   url: https://www.youtube.com/watch?v=yWbMz_aBlMU
   lrc:
     expect: true
 
 - title: "I'm Just Ken"
-  artists: [Ryan Gosling]
+  artist: Ryan Gosling
   url: https://www.youtube.com/watch?v=wwux9KiBMjE
   lrc:
     expect: true
 
 - title: Never Gonna Give You Up
-  artists: [Rick Astley]
+  artist: Rick Astley
   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   lrc:
     expect: true
 
 - title: Viva La Vida
-  artists: [Coldplay]
+  artist: Coldplay
   url: https://www.youtube.com/watch?v=dvgZkm1xWPE
   lrc:
     expect: true
 
 - title: Paradise
-  artists: [Coldplay]
+  artist: Coldplay
   url: https://www.youtube.com/watch?v=1G4isv_Fylg
   lrc:
     expect: true
 
 - title: Welcome To The Black Parade
-  artists: [My Chemical Romance]
+  artist: My Chemical Romance
   url: https://www.youtube.com/watch?v=RRKJiM9Njr8
   lrc:
     expect: true
 
 - title: Wonderwall
-  artists: [Oasis]
+  artist: Oasis
   url: https://www.youtube.com/watch?v=bx1Bh8ZvH84
   lrc:
     expect: true
 
 - title: I Will Survive
-  artists: [Gloria Gaynor]
+  artist: Gloria Gaynor
   url: https://www.youtube.com/watch?v=6dYWe1c3OyU
   lrc:
     expect: true
     duration_slop: 5
 
 - title: Hotel California
-  artists: [Eagles]
+  artist: Eagles
   url: https://www.youtube.com/watch?v=BciS5krYL80
   lrc:
     expect: true
 
 - title: Bohemian Rhapsody
-  artists: [Queen]
+  artist: Queen
   url: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
   lrc:
     expect: true
 
 - title: "DJ Got Us Fallin' In Love"
-  artists: [Usher]
+  artist: Usher
   url: https://www.youtube.com/watch?v=C-dvTjK_07c
   lrc:
     expect: true
 
 - title: "I'm Gonna Be (500 Miles)"
-  artists: [The Proclaimers]
+  artist: The Proclaimers
   url: https://www.youtube.com/watch?v=tbNlMtqrYS0
   lrc:
     expect: true
 
 - title: 500 Miles
-  artists: ["Peter, Paul and Mary"]
+  artist: Peter, Paul and Mary
   url: https://www.youtube.com/watch?v=UJmbn1sQw2A
   lrc:
     expect: true
 
 - title: Mr. Brightside
-  artists: [The Killers]
+  artist: The Killers
   url: https://www.youtube.com/watch?v=gGdGFtwCNBE
   lrc:
     expect: true
 
 - title: Sign of the Times
-  artists: [Harry Styles]
+  artist: Harry Styles
   url: https://www.youtube.com/watch?v=qN4ooNx77u0
   lrc:
     expect: true
 
 - title: Riptide
-  artists: [Vance Joy]
+  artist: Vance Joy
   url: https://www.youtube.com/watch?v=uJ_1HMAGb4k
   lrc:
     expect: true

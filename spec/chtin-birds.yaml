@@ -5,66 +5,66 @@ lrc:
 
 # common metadata
 album: "The Lost Birds"
-album_artist: "Christopher Tin"
+artist: "Christopher Tin"
 date: 2022-09-30
 cover: "https://cdn.shopify.com/s/files/1/0605/3655/3691/files/TheLostBirds-Cover-1600x1600.jpg"
 
 tracks:
 - title: "Flocks a Mile Wide"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
 - title: "The Saddest Noise"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "Bird Raptures"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "A Hundred Thousand Birds"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "Wild Swans"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "Intermezzo"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
 - title: "Thus in the Winter"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "There Will Come Soft Rains"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "All That Could Never Be Said"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "I Shall Not See the Shadows"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "In the End"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8
 - title: "Hope Is the Thing with Feathers"
-  artists:
+  artist:
   - Christopher Tin
   - Royal Philharmonic Orchestra
   - VOCES8

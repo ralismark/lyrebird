@@ -4,23 +4,23 @@ lrc:
   expect: false
 
 album: "Minecraft: Nether Update"
-album_artist: "Minecraft"
+artist: "Minecraft"
 date: 2020-06-05
 cover: https://images.genius.com/e6cff5af8aa90f427f734551bde6cf96.1000x1000x1.jpg
 
 tracks:
 - title: Chrysopoeia
-  artists:
+  artist:
   - Lena Raine
 - title: Rubedo
-  artists:
+  artist:
   - Lena Raine
 - title: So Below
-  artists:
+  artist:
   - Lena Raine
 - title: Pigstep (Mono Mix)
-  artists:
+  artist:
   - Lena Raine
 - title: Pigstep (Stereo Mix)
-  artists:
+  artist:
   - Lena Raine

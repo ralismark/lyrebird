@@ -91,10 +91,9 @@ async def main() -> None:
         return
 
     for spec, album in albums:
+        artist_str = ", ".join(album.artist) if album.artist else "Various Artists"
         albumdir: Path = args.out / sanitise_for_path(
-            f"{album.album_artist}"
-            if album.singles
-            else f"{album.album_artist} - {album.album}"
+            artist_str if album.singles else f"{artist_str} - {album.album}"
         )
 
         if args.ifne and albumdir.exists() and len(list(albumdir.iterdir())):

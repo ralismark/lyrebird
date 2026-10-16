@@ -45,7 +45,7 @@ def scrape_page(url: str) -> Album:
     return Album(
         url=url,
         album=title,
-        album_artist=artist,
+        artist=[artist],
         date=date,
         cover=cover,
         tracks=tuple(scrape_track(t) for t in tracks),

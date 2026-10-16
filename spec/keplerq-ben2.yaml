@@ -4,7 +4,7 @@ lrc:
   expect: false
 
 album: "Ben Johnston: String Quartets Nos. 1, 5, & 10"
-album_artist: "Kepler Quartet"
+artist: "Kepler Quartet"
 date: 2011-01-01
 cover: https://www.newworldrecords.org/cdn/shop/products/image_a07a58e2-9736-44d6-8fe5-f433f3bd8fe2_1080x.jpg?v=1582678950
 

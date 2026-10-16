@@ -6,7 +6,7 @@ lrc:
 
 # common metadata
 album: "148"
-album_artist: "C418"
+artist: "C418"
 date: 2015-12-18
 cover: "https://f4.bcbits.com/img/a1900218057_10.jpg"
 
@@ -16,19 +16,19 @@ tracks:
 - title: Seismic Stratigraphy
 - title: Droopy Remembers
 - title: Kompass
-  artists:
+  artist:
     - C418
     - Disasterpeace
 - title: "185"
-  artists:
+  artist:
     - C418
     - Baiyon
 - title: Jimtention
-  artists:
+  artist:
     - C418
     - Big Giant Circles
 - title: Tsuki No Koibumi 2
-  artists:
+  artist:
     - C418
     - Laura Shigihara
 - title: Friend

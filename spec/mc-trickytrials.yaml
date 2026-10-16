@@ -4,44 +4,44 @@ lrc:
   expect: false
 
 album: "Minecraft: Tricky Trials"
-album_artist: "Minecraft"
+artist: "Minecraft"
 date: 2024-04-26
 cover: https://images.genius.com/f2a054d00251bf64e43b05e200b1fbd5.1000x1000x1.png
 
 tracks:
 - title: Featherfall
-  artists:
+  artist:
   - Aaron Cherof
 - title: Watcher
-  artists:
+  artist:
   - Aaron Cherof
 - title: Puzzlebox
-  artists:
+  artist:
   - Aaron Cherof
 - title: komorebi
-  artists:
+  artist:
   - Kumi Tanioka
 - title: pokopoko
-  artists:
+  artist:
   - Kumi Tanioka
 - title: yakusoku
-  artists:
+  artist:
   - Kumi Tanioka
 - title: Deeper
-  artists:
+  artist:
   - Lena Raine
 - title: Eld Unknown
-  artists:
+  artist:
   - Lena Raine
 - title: Endless
-  artists:
+  artist:
   - Lena Raine
 - title: Creator
-  artists:
+  artist:
   - Lena Raine
 - title: Creator (Music Box Version)
-  artists:
+  artist:
   - Lena Raine
 - title: Precipice
-  artists:
+  artist:
   - Aaron Cherof
